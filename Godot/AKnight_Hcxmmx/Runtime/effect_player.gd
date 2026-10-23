@@ -1,4 +1,5 @@
 extends Node2D
+const FrameSource=preload("res://AKnight_Hcxmmx/Runtime/FrameStore.gd")
 
 # Immutable source data and material templates survive room instances.
 static var shared_metadata: Dictionary={}
@@ -10,7 +11,7 @@ const CLIP_BYTES=24*1024*1024
 var source_key: String=""
 
 var meta: Dictionary
-var stream: FileAccess
+var stream:FrameSource
 var nodes: Array[MeshInstance2D] = []
 var shaders: Array[ShaderMaterial] = []
 var frame_cache: Dictionary = {}
@@ -182,7 +183,7 @@ func initialize(folder := "res://AKnight_Hcxmmx/Runtime/assets/fx/", progressive
 	particle_details.initialize(folder)
 	if not shared_metadata.has(folder):shared_metadata[folder]=JSON.parse_string(FileAccess.get_file_as_string(folder+"frames.json"))
 	meta=shared_metadata[folder]
-	stream = FileAccess.open(folder+"frames.bin", FileAccess.READ)
+	stream = preload("res://AKnight_Hcxmmx/Runtime/FrameStore.gd").open(folder,meta)
 	assert(stream != null)
 	assert(int(meta.get("binary_version",0)) in [2,3])
 	field_viewport=SubViewport.new();field_viewport.size=Vector2i(get_viewport_rect().size)

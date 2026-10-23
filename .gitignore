@@ -25,6 +25,7 @@ build-local/
 *.otf
 *.wav
 *.bin
+*.fxc
 *.skel
 *.atlas
 .vs/

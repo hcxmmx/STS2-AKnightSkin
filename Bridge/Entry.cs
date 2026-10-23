@@ -39,7 +39,7 @@ public static class Entry
             }
         }
         _initialized = true;
-        GD.Print("[AKnightSkin] Initialized v0.5.11; IRONCLAD combat visuals/audio; F8 full/rhythm; ultimate=PACTS_END; rest/merchant idle.");
+        GD.Print("[AKnightSkin] Initialized v0.5.12; IRONCLAD combat visuals/audio; F8 full/rhythm; ultimate=PACTS_END; rest/merchant idle.");
     }
 
     private static void OnCombatWon(CombatRoom room)

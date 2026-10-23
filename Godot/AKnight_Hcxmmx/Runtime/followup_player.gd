@@ -1,4 +1,5 @@
 extends Node2D
+const FrameSource=preload("res://AKnight_Hcxmmx/Runtime/FrameStore.gd")
 
 static var shared_metadata: Dictionary={}
 static var shared_programs: Dictionary={}
@@ -11,7 +12,7 @@ const PlaneClip = preload("res://AKnight_Hcxmmx/Runtime/NearClip.gd")
 
 # Separate runtime for the new v4 caches. The accepted skill1 runtime is untouched.
 var meta: Dictionary
-var stream: FileAccess
+var stream:FrameSource
 var nodes: Array[MeshInstance2D] = []
 var states: Array = []
 var shaders: Array[ShaderMaterial] = []
@@ -96,7 +97,7 @@ func initialize(skill: String, progressive:=false) -> void:
 				if not names.has(str(id)):names[str(id)]={}
 				for property in frame_props[id]:names[str(id)][str(property).get_slice(".",0)]=true
 		animated_names[skill]=names
-	stream=FileAccess.open(folder+"frames.bin",FileAccess.READ)
+	stream=preload("res://AKnight_Hcxmmx/Runtime/FrameStore.gd").open(folder,meta)
 	assert(stream!=null and int(meta.binary_version)==4)
 	var im:=Image.create(1,1,false,Image.FORMAT_RGBA8);im.fill(Color.WHITE);fallback=ImageTexture.create_from_image(im)
 	field_viewport=SubViewport.new();field_viewport.size=Vector2i(get_viewport_rect().size);field_viewport.transparent_bg=true;field_viewport.disable_3d=true

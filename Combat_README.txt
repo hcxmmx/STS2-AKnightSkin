@@ -1,4 +1,4 @@
-未锈铠 · 铁甲战士外观 0.5.11
+未锈铠 · 铁甲战士外观 0.5.12
 
 将 AKnightSkin 文件夹复制到《杀戮尖塔 2》mods 目录并启用。
 模组设置位于游戏模组详情页及选人档案「启程」页；F8 切换普通演出模式。
@@ -10,7 +10,7 @@ https://github.com/hcxmmx/STS2-AKnightSkin
 《重返未来：1999》未锈铠、美术、动画、配音、台词、界面及演出资源
 归 Bluepoch 及相应权利方所有；《杀戮尖塔 2》归 Mega Crit 及相应权利方所有。
 这是非官方兴趣项目。原作资源及字体不适用下方代码许可。
-华文中宋为 SinoType 版权所有，未取得额外再分发许可记录；独立分发前需核实或替换。
+华文中宋为 SinoType 版权所有，字体不适用本项目的 MIT 代码许可。
 英文字幕字体实际为 Adobe Source Han Sans CN Regular 2014 旧版，内嵌 Apache 2.0 声明。
 https://www.apache.org/licenses/LICENSE-2.0
 

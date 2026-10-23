@@ -1,5 +1,5 @@
 {
-  "version": "0.5.11",
+  "version": "0.5.12",
   "files": [
     {
       "path": "AKnight_Hcxmmx/Archive/Catalog.json",
@@ -582,14 +582,14 @@
       "sha256": "8e02b46117eeed4a5f0b6eeb77363c301bbfa869c9b4e235cd6d7ca30a1b55a9"
     },
     {
-      "path": "AKnight_Hcxmmx/Runtime/assets/fx/ability/frames.bin",
-      "bytes": 2834776,
-      "sha256": "c91e98923cabf60d1e02f858464ab4f83904c7edb37df308901127ca437be851"
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/ability/frames.fxc",
+      "bytes": 670774,
+      "sha256": "908f6ce8d62d1ccdc5cf59d8f1408341980c2336ac26e023f59f3f3ea720bb6f"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/ability/frames.json",
-      "bytes": 104740,
-      "sha256": "a707c4df648918f470c8489f42204f52d9fa7389ed1871c983a5e15ad7ff5936"
+      "bytes": 118540,
+      "sha256": "c0abca71f04b17b5e1b51b86ef60d3b6af7199a3865bee15906e53354474ee16"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/ability/shader_materials.json",
@@ -597,24 +597,24 @@
       "sha256": "709bfe3e1e7621258f5c988fa9d4906642ed68a98749231546285cab5cd42a6c"
     },
     {
-      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/entry/frames.bin",
-      "bytes": 593576,
-      "sha256": "63f7b8a62e9da64d835be284d23628e58fd55577a60096ad7cf46a8d597729e9"
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/entry/frames.fxc",
+      "bytes": 162247,
+      "sha256": "dbd5f4766a5bfcde9f9ba6a49631b29864605bb1446c4bb7fd8c7e3114614144"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/entry/frames.json",
-      "bytes": 55443,
-      "sha256": "da730d57eef44ef0d9ba5dc2d470373aa9b2fef9faa3803f42ac4f5e44abf8d5"
+      "bytes": 71057,
+      "sha256": "7dcf52c27bc713f474d486e0a8136c69f25886cb1953f8cf521c371a837eb2e7"
     },
     {
-      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/ready/frames.bin",
-      "bytes": 287516,
-      "sha256": "d046ca611a81e50b39324b4643ef90d72b8042a007f9e35bc0d79ed92fcf5765"
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/ready/frames.fxc",
+      "bytes": 61832,
+      "sha256": "e61b4623108bbb06afbd8292a6c8340e3d5d4c9f04ae71a8784305e61823cc78"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/ready/frames.json",
-      "bytes": 20619,
-      "sha256": "210b7dd64d81d497065bbb4457acee7aa8853f2eab7d733364bcc2f6a4792857"
+      "bytes": 27027,
+      "sha256": "0cf11d66db24c6b80831b1694c82559c29ffd2c989d5c2d4bc48962adc8540dc"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/08ef9a443ef14a49.png",
@@ -752,24 +752,24 @@
       "sha256": "82627570036b0e9422965165b322b2f3c046f263776770680a7616504cb954c2"
     },
     {
-      "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_normal/frames.bin",
-      "bytes": 110128,
-      "sha256": "f107929373fc2a68232956b21ed6602f8ceeea0503680f5c67b2573909c811c1"
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_normal/frames.fxc",
+      "bytes": 24543,
+      "sha256": "640fe5103f346a31a8279b950a36501fb459c72ebac52110f8ef6246b429c3dc"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_normal/frames.json",
-      "bytes": 10279,
-      "sha256": "b7e47cee468f67e6451caa5e8703d1b6a7112cc53c289efe62f8d8234e6429e3"
+      "bytes": 17064,
+      "sha256": "89f7009656e115576a7f6a73c656856e55e32c7d86bf9c27b95a33b82f94fd0d"
     },
     {
-      "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_unique/frames.bin",
-      "bytes": 237292,
-      "sha256": "a4d66efca61a2baf86e9c3f24c8d435e0da0120d3b0132e587af3f4731fc2a80"
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_unique/frames.fxc",
+      "bytes": 54222,
+      "sha256": "630657895a5a0828d83e070a06315d7f170b16bcacc0a7517ebabc1db4e90687"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_unique/frames.json",
-      "bytes": 9019,
-      "sha256": "e4bbb66e121e79ba6a17edce0be4824c0d758fb9ffb2372540645fe5372ec55d"
+      "bytes": 14512,
+      "sha256": "c6948530c99a5f21ce8c1a1644a1e368143555708b99397fab50b57312ac5c27"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_unique/shader_materials.json",
@@ -777,14 +777,14 @@
       "sha256": "2aaf791d0ce89999270ea39dee4a3c292b56c10f55ed5d6417ad25bceba69264"
     },
     {
-      "path": "AKnight_Hcxmmx/Runtime/assets/fx/frames.bin",
-      "bytes": 6126592,
-      "sha256": "eb5db466ebec084ad696b75c1ac04cd75ee7a8ee0c4e4eab8a3f838b60dbf05f"
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/frames.fxc",
+      "bytes": 1265564,
+      "sha256": "d8b3a6f74830d92c6639143f890fa33a77520ec27b677adf0c113473baf7601b"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/frames.json",
-      "bytes": 231267,
-      "sha256": "0d0af8a0449887724579d5b8978fce0a1a18d60e94403893b12de20ec7c38ecd"
+      "bytes": 294205,
+      "sha256": "427f6234cfb83b6f285327f9bec60c4187723fc798bfab42663d3168c11dfdbc"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/particle_details.json",
@@ -792,14 +792,14 @@
       "sha256": "5bae005758fe03d7b8887c902386ea137b771f847be0558afe7bf49fd0368c3e"
     },
     {
-      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/frames.bin",
-      "bytes": 45690700,
-      "sha256": "92663e7cd4b492f02649d1ae18543cd7250ac7ea2fa525969c115fcfbe9f2bd5"
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/frames.fxc",
+      "bytes": 4950143,
+      "sha256": "cb0caa978256f91c1ac02235e7eb8008a9d729e52fa415563ee5efea4b5eb3e4"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/frames.json",
-      "bytes": 535772,
-      "sha256": "cb9a78279b3c3c0a7544d069153b322e2e1f6f613d117e487fd06637cdbc2646"
+      "bytes": 650826,
+      "sha256": "1c51418115b972690a5c4ca0fb352812e32ad336f942a063e39edc26aab04645"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/particle_details.json",
@@ -1672,14 +1672,14 @@
       "sha256": "dfc3c22ad174f66fa5853200f9e62a62d97ca34e36c33b9f48caa232e814deca"
     },
     {
-      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/frames.bin",
-      "bytes": 329596396,
-      "sha256": "67d0230b39d6c2fea4b1d8dfd51d0258658cb442e2da154b9dc52ad643956b78"
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/frames.fxc",
+      "bytes": 48486110,
+      "sha256": "f38f1cf3301bf223c9e267b53ee4dbf26a8410177c65ee740096715214ff82f0"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/frames.json",
-      "bytes": 2580415,
-      "sha256": "eec4496232acb5fc78ab6db9834b1d546875fe3d10bc60ff8de7c8ca681a86be"
+      "bytes": 3211552,
+      "sha256": "2864a0499b267030509e735f3410a99cd6983239482115fd7749474b1d2aaedb"
     },
     {
       "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shader_materials.json",
