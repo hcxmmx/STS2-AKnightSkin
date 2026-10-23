@@ -1,0 +1,2470 @@
+{
+  "version": "0.5.11",
+  "files": [
+    {
+      "path": "AKnight_Hcxmmx/Archive/Catalog.json",
+      "bytes": 52453,
+      "sha256": "fc04507ededf9a60950f83b806a6c2b85966dd9df0d10907898ee5bb02080a99"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/Pages/images/item_300701.png",
+      "bytes": 42353,
+      "sha256": "9cbc3c236a517750772573bc63500cb9ee307ca3f1bf182458ad214d1cd1051b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/Pages/images/item_300702.png",
+      "bytes": 58572,
+      "sha256": "2a4898ac54a1244a014736d4fb42cce7e9cebf35b0ed7857d4d776938f8962e8"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/Pages/images/item_300703.png",
+      "bytes": 42376,
+      "sha256": "5ab0b0634ffb3c1fe5860756c27b417e816cf18dc7db5cacea61f6824d0747e9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/Pages/images/menu_icon03.png",
+      "bytes": 1195,
+      "sha256": "6a20c818570dd8f0913c3837bc0f157f2710ac56de677062b2a3e7c967f61a1a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/Pages/images/menu_icon04.png",
+      "bytes": 522,
+      "sha256": "9a4444c3aef2fec1eeecb77e90bcbacdf6b6e927ed1734e41319f856a36a0567"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/Pages/images/menu_icon_02.png",
+      "bytes": 261,
+      "sha256": "47501cb6ca8bff21d945f71755de0788c79a58b72d6dbc5edc14ff5ebbb7b838"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/Pages/images/menu_tabwxz_008.png",
+      "bytes": 497,
+      "sha256": "954f77fb6c4b651413fb974258ad48420f2002b72901c9c453a17146dc69be01"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/Pages/menu.json",
+      "bytes": 14177,
+      "sha256": "5d204773123da87880c7d0b5be307d0a968af697923c111174f0dffdd14ff513"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/Pages/profile.json",
+      "bytes": 5462,
+      "sha256": "ebb36a36768862a5b10ad30d6192a966ff91d7dd536f332edc1c6f4f7a888e09"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/fonts/hwzs.ttf",
+      "bytes": 12128500,
+      "sha256": "0d0e8ba436f803236fa10c27903327284c39186a6e7d859e0fae423d11c44583"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/fonts/subtitle_en.ttf",
+      "bytes": 8164040,
+      "sha256": "3b549cd9720f6ee5f9b3e6ee2f671fea599c0718c2eac5d6f2809a69270c52ca"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/bg_fm_circle.png",
+      "bytes": 82301,
+      "sha256": "cc5d970f96c81c4c95692c94cfd3263db9efac9125a28823f301679c620b7ef4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/bg_fmand2.png",
+      "bytes": 2646035,
+      "sha256": "dd81c438492f60d8417ae6209f01c84be2c2c80e7cc063ce0d5d20080b47d0c9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/bg_leftdown.png",
+      "bytes": 117169,
+      "sha256": "55abdfbd5d0105aca8e8839743cd74abfe665f39c58c1f26566d1909f23e9cba"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/bg_noise2.png",
+      "bytes": 4498809,
+      "sha256": "72c7d8ab2ccdde19fec3142ea96c1005298deb82a9c1fe941ab8d9c3e698bc27"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/bg_rightdown.png",
+      "bytes": 88623,
+      "sha256": "08010d05e876ea18bb3356e61be2a27a8d74f4312d177956a5d13b9036701149"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/bg_rightup.png",
+      "bytes": 425390,
+      "sha256": "55723f34bc725b5331d320480e5c60b98199aba2b984637f49f28209dc66ab58"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/signature_3007.png",
+      "bytes": 33223,
+      "sha256": "f3f1a037f7d7fbef00b8875f410e18fa00ebee31edd461103cfc7938dd9731aa"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-1323595808708049559.png",
+      "bytes": 85,
+      "sha256": "9602899b7d7efc518ab7dba01df0f5f2a6fa429515538b48027575cda0b9fb8f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-1894735276949238635.png",
+      "bytes": 4216,
+      "sha256": "38beeae508510855964cfcdb40301610a6da8f14d45e56f27a625162d6b6202b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-2285621114309594602.png",
+      "bytes": 926,
+      "sha256": "81d0b15381d5353a144e2b6e5ebbbf48ecc4bae44e72716e0114452b238c0c41"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-2516015672638174485.png",
+      "bytes": 1178,
+      "sha256": "2a6fc99eab699532adf0a915c7f87f2a09c8be416afb287f184ef78e74159927"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-2529878305825628108.png",
+      "bytes": 216,
+      "sha256": "e266d6cbd4032a92fe660ed9d8ac15e4175e9aae96c4f8cb026148a89defe388"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-2625497080621583543.png",
+      "bytes": 4212,
+      "sha256": "6edfceabd54f0e3d98a5675f2e6542251d891a376f1a69f405e5b13e05c0ff4a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-2789956517228732903.png",
+      "bytes": 9273,
+      "sha256": "f355b09c05cc1d2839ae210f85c0bef59f673eebb8f246d348c0b9d99c6b92c4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-4583033911035252417.png",
+      "bytes": 672,
+      "sha256": "ac0d664b28e36a4b7cb387569d1a19e5af3d4c9ae03d7295e7e24078607831f1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-5064761497278356154.png",
+      "bytes": 4414,
+      "sha256": "a1d1a0fe76a70afa6c15e91c2a1e1decf567e79dceca8a3e3c8e0fb984cd38f9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-5172575113237344233.png",
+      "bytes": 330291,
+      "sha256": "a6bd45f108e09360f2c729b18cec7b9d4cda8fd12f20684212751b190ca0b723"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-5899840512288794731.png",
+      "bytes": 64213,
+      "sha256": "8bb2a67fbb60037bcccc9bd75ad73ce59a1a9d5750343a523c0c4bc4725d44ca"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-6002913554591500027.png",
+      "bytes": 93,
+      "sha256": "b9be970b49d20745ab6861cfe9b2450bbd2a1fd5cc3caacb33b3d64edb9ec5fb"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-6477464315095389136.png",
+      "bytes": 2514,
+      "sha256": "19ae57eb84759632a4bebd41feed264df1bfad19a63e3e8c903b2853630c6403"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-6624727850828760103.png",
+      "bytes": 170,
+      "sha256": "e2d9c833ad6ded035952b76f10e3436445c2dc32564a0b802c1f029192528fcd"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-7894246609092553847.png",
+      "bytes": 11502,
+      "sha256": "a18c02a5b6ea3ae353728bebdfb4a14097238346b97b7416a2f555a5d6509068"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-807834919247409371.png",
+      "bytes": 3424,
+      "sha256": "c34b4dd9c6ed6dc4d1a22da40b89dc81a85cedb65a7f2809f06478db85508906"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_-8559228729981262323.png",
+      "bytes": 10878,
+      "sha256": "cc9ef9dd43a4703c81c3cfd259b9341e7889ee31208ab694c1b83f71f9706e32"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_3219610200368808165.png",
+      "bytes": 1881,
+      "sha256": "0383d26576782da2dd67340e4eaf1d9422c05acf4a5d4be76d53cd5dd6168180"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_3234404646866491697.png",
+      "bytes": 2542,
+      "sha256": "f4edf827e69d4488fcae7b2c13bf5cee4999a0397965f8bb18a63c578d71b862"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_4639443162088522231.png",
+      "bytes": 8859,
+      "sha256": "ee95b73b392ac2d794c7e05f8ffa6770a23b6691060f8f9d97509e4ee654b261"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_5171614331050658463.png",
+      "bytes": 1315,
+      "sha256": "16230462d82fb848fef338b54eac73f9625a319b36c6f25a568f21c8fad76b3a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_5475189209213357999.png",
+      "bytes": 2496,
+      "sha256": "40f551eb84363c7b6b9458d68ae77d7c55e3906cb89fac116d62c7feb2ea8079"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_5985733408419173886.png",
+      "bytes": 11065,
+      "sha256": "94dfcc38a4814b8807249e13546fe96d545e91f7132b0348269d4451e9b34a27"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_6465012121078319310.png",
+      "bytes": 8075,
+      "sha256": "ebaed6ded612a900c4b8c63f5c806d57dfb1ee77be1692006e646eaef3eb44d0"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_6578838234217936846.png",
+      "bytes": 292,
+      "sha256": "49447e2114cc14ff785a1471933c205b5e0f3dd0a06e386ec9836f7ec1d46925"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_678441194137368995.png",
+      "bytes": 47912,
+      "sha256": "e5907b3b69420365733b0905888f8cb4e5d3149939d9d31736442feac6929a19"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_7626224939245711654.png",
+      "bytes": 732,
+      "sha256": "39c2273954cfe607780dc9d91854fa80ab99c58d4b8ad4a3b5604b77f4c9af4c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/sprite_8223519168917231402.png",
+      "bytes": 2385,
+      "sha256": "cb2a2124f1dcf6a1ba679fa50200796f4b5d0ae6f56c9e7ae36c04a8c525f076"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/images/subtitle_backdrop.png",
+      "bytes": 44438,
+      "sha256": "e08e3e41006f9d32629dc979a83e993d6585db46ef4ad052f8463ce79117f185"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/layout.json",
+      "bytes": 223413,
+      "sha256": "0010b50786abf819768c09d9378c45e4790b44e8feb00a14636d67e5a6778700"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Archive/subtitles.json",
+      "bytes": 31257,
+      "sha256": "cec7409d9952543051bb6297d3c9ef6aa9ce09e478dbbeeb943e473a98b6c39b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300702.wav",
+      "bytes": 314336,
+      "sha256": "627c0e4b83f148957fdd08b48364d7f7b84120ca2f2a42341d192fb255012101"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300703.wav",
+      "bytes": 499780,
+      "sha256": "4adf6965079097498bcfe8d4aec18ccfba603b321deff7665bfc792ab2a7200d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300704.wav",
+      "bytes": 264962,
+      "sha256": "e25e1b573e682b8988eeeb21ddc8153258bdc2dd5093c17a6a95bc8f78c817d2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300705.wav",
+      "bytes": 109048,
+      "sha256": "3b78983c24e501569045e554675791979b3e89614a758df759625311023c129f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300706.wav",
+      "bytes": 316488,
+      "sha256": "dadcb6e5602c4098b09ecad2b2948c08ebf363b4b8ffc28a76a2cf73305657eb"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300707.wav",
+      "bytes": 492686,
+      "sha256": "aa864ba080fdb41e24430c6059afd82122b24d99b0628768fa16a0363db19be2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300708.wav",
+      "bytes": 790194,
+      "sha256": "50dab24174be2be1a89a681f91266762b2d5a6dba88afcb5eaafa1631889ac43"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300709.wav",
+      "bytes": 517308,
+      "sha256": "c8a3a24dfd0512807fe00ef27258025dfcc4878b1e9f739ff5c27a93e93b2e5b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300710.wav",
+      "bytes": 357170,
+      "sha256": "e54aa7bd87bc0c396e9c9a720d531736ead5c223f955d1068854409a357e1bb1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300711.wav",
+      "bytes": 559208,
+      "sha256": "37c5f1bbff7b4c630583d03a1fe81b23d65e600ced06733dd490b67f589d688e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300712.wav",
+      "bytes": 438518,
+      "sha256": "4e1a2d658901d4c23c9feb3818c659a8e38b1f96d21216fa3e883d4d2a641318"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300713.wav",
+      "bytes": 466996,
+      "sha256": "04f431e206c2f48e5299eee91e42d289d9387ef8235793dab4f3ab2ed5ab458e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300714.wav",
+      "bytes": 361236,
+      "sha256": "afa7f597aa3d3d95b0b418b7b8de2e18d41e68ec8811512c7c1ada5ed15e6912"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300715.wav",
+      "bytes": 579654,
+      "sha256": "ad853000c96c054db4709e103be3d793f8386e8c9db7ecb5aa504118f058b5ff"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300716.wav",
+      "bytes": 487998,
+      "sha256": "c5c5964f9e94bf757e9bf891102412ec4620baaca225de710ce3c8422016f38f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300717.wav",
+      "bytes": 522632,
+      "sha256": "a4ab48d0fa79e337286e65cb71c141533707b87d503af558079da0f7bcdf8b16"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300718.wav",
+      "bytes": 598516,
+      "sha256": "f2a0a6007d75ecd86853fce8d146edc2c52da854ac199dcfbd22c9f1c03deaa4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300720.wav",
+      "bytes": 219336,
+      "sha256": "1bb921a404580464024f8d9460f1c681e8f1a445d8aab701dea51803ae02e316"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300721.wav",
+      "bytes": 28632,
+      "sha256": "55f0414bab12ede4a9437083a29a36870aebbc8015368c227b3a108c03713e0c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300722.wav",
+      "bytes": 36360,
+      "sha256": "8bc7eea1e05d71d9463f0823381b743cc2739dc7322a06238433aa26986a7863"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300723.wav",
+      "bytes": 64364,
+      "sha256": "182e74cc0fddab8784a5dfd54ed81760dd574f42a9a493847be06dcde06840cf"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300724.wav",
+      "bytes": 122898,
+      "sha256": "b0841ba7ec44b992888a0e8c5a22b8ebae1edbcb51f0135aba0a0ab7bc64a48f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300725.wav",
+      "bytes": 96378,
+      "sha256": "4267c7c1ff84ceaccf25d7cf8cf966b364b4655fb810cfe4adf85ed671b09c91"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300726.wav",
+      "bytes": 78236,
+      "sha256": "c170b09ae9bb7b339987e172e198ca342b797f3192ebc712b28aeae761b85b1a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300727.wav",
+      "bytes": 93802,
+      "sha256": "ed3b390095af98dedc2f6c80f0f75a41b1f86cf66aa8060ab57cd67cbedddd54"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300728.wav",
+      "bytes": 21284,
+      "sha256": "882600ca0674a40773f604f8abdc0fa06880bccb2841a513afe9ab56d794d29a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300729.wav",
+      "bytes": 352734,
+      "sha256": "688fb62271ccac36956667a7c7b9d328faea9b43d13c6b80337c4486a84eab7d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300730.wav",
+      "bytes": 50948,
+      "sha256": "d9294239d1b0611e3c2c33ccc8c8ca252305f62b297495fc948c194b2ca5f8a6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300730_combat_1.wav",
+      "bytes": 67492,
+      "sha256": "7bdd8a65c98816adeb55066a17a41880fbb9392d5a1a02c4d24086a482dee289"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300731.wav",
+      "bytes": 71670,
+      "sha256": "16df54db351e6acaa9a75f1d2a455389f5ed7e23537ce769860d7d7c7d196c88"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300731_combat_1.wav",
+      "bytes": 71670,
+      "sha256": "d8d91e8a95091e8379076d2fe35135ae1e862751083c42bbf468c1c3483e9388"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/1300732.wav",
+      "bytes": 258970,
+      "sha256": "0153b1229e640716b57b13a53669c914439b1fab84057b6a40d8bbfbb4c02227"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/preview_rhythm/unique_sentence_1.wav",
+      "bytes": 81644,
+      "sha256": "d7bcee52672b16b0236436e6ec3f83558db307fa22210adb209ab51b14ce8635"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/audio/preview_rhythm/unique_sentence_2.wav",
+      "bytes": 122334,
+      "sha256": "1a640136e746211f65e6384f0714736724cd15fd31f8d6fb80ea2518da8201f8"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/battle/300702_weixiukai.atlas",
+      "bytes": 1588,
+      "sha256": "0f41a25a710a37a5ab21043df2a68675685908afae6f7ced9e175242dc8731e6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/battle/300702_weixiukai.png",
+      "bytes": 142639,
+      "sha256": "045d13273ccad4a28d2ffbb4820f9baa5d55c8fe3f67808071457cb87001358e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/battle/300702_weixiukai_bloom.png",
+      "bytes": 8950,
+      "sha256": "7424ec8b7a0c46024ccbbb00958c5f604c8f731459fc88af1dd3b68b23dad31f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/battle/300702_weixiukai_fight.skel",
+      "bytes": 532122,
+      "sha256": "ee39aadc29d11672c39a667041e839c32e7bae6a37cb0a9d8a639912189d1465"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/battle/300702_weixiukai_room.skel",
+      "bytes": 190046,
+      "sha256": "54858f9ffde1b51f699fca2806000c0d4b47e48e089dbfe9554319c3b5a60787"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/battle/300702_weixiukai_ui.skel",
+      "bytes": 144509,
+      "sha256": "28836d44be83e053a6bf236224e49e56990331df76126e743609f1292fef7e5e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/portrait/300702_weixiukai_p.atlas",
+      "bytes": 4406,
+      "sha256": "33cfe59ad780cebdeb5ec456749c81e799cf12433c09a6835a64f464b5735d8e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/portrait/300702_weixiukai_p.png",
+      "bytes": 2890218,
+      "sha256": "9c36ac49f246b95f42b9851797a0afc449370507aa18c144d70dfeb9fc9f69ef"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/portrait/300702_weixiukai_p.skel",
+      "bytes": 486574,
+      "sha256": "4dede8cb0ad862699037d26ea680afd08806896eabd79d47ef194188ecd60fad"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/portrait/300702_weixiukai_p_bloom.png",
+      "bytes": 204951,
+      "sha256": "6825c8a093276cf8a6d0c720c87456b0128222938684be1d310503df370ad43f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/born.wav",
+      "bytes": 294976,
+      "sha256": "57da07110c6e5cee8b51af2a7c79b4e8e1b1d8eb3019fe4b52390063c5d50828"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/die.wav",
+      "bytes": 153108,
+      "sha256": "0249d5a9ddbf484fa3548a010feb7ad33146f0b35969970b9187da706c903c33"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/full_tempo/full_cast_b.wav",
+      "bytes": 105416,
+      "sha256": "2621adc167b6a5c6513b4a649fe38a067d7d15b0d7bcd07a451f46322dc1840a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/full_tempo/full_power_a.wav",
+      "bytes": 89032,
+      "sha256": "bd3d3ed3028e9eeae90ec13331a2fa0c70b12193e552aedd8d00dec6d63ae9fd"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/full_tempo/full_power_b.wav",
+      "bytes": 200308,
+      "sha256": "497f7ebc33d99411821253f986669c9a813b152d7b5d89a1a16df7915f8705f1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/full_tempo/full_skill1.wav",
+      "bytes": 225072,
+      "sha256": "e862cdae073d80a82e0a87db948eab86f69d9d7ee3833129de503c439b83da2a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/full_tempo/full_skill2.wav",
+      "bytes": 275460,
+      "sha256": "65ca8a526f75cbf037929cab890020e0e87d9cb3f91c63588906c109851cfb76"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/full_tempo/full_unique.wav",
+      "bytes": 911676,
+      "sha256": "b231d4f212d2e3bd10f3cbd86f15feeed81169850d1b781ccc53b4638afc36d7"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/posture.wav",
+      "bytes": 165768,
+      "sha256": "0e2a4d24e6969e3712459508172f908c11d5cb66ccc895d0b73147fb204b768f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/preview_rhythm/rhythm_one_1.wav",
+      "bytes": 35884,
+      "sha256": "99541a819818fab1a65a5673716c3aaef924a2ecd30826ddd9766b0475db2288"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/preview_rhythm/rhythm_one_2.wav",
+      "bytes": 70604,
+      "sha256": "6c0e5853687f2cf0b8adad7b8e88fb2a4ac201b4c5cfc617910931bc9040cb2c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/preview_rhythm/rhythm_one_3.wav",
+      "bytes": 161908,
+      "sha256": "a0c9a0c29653ef623fd68daaf1726b66c4d0ae12af13e620c7f8a92f2b67cf8a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/preview_rhythm/rhythm_two.wav",
+      "bytes": 253060,
+      "sha256": "a0cb965935b3dcf129944c6427a2fa7ff91eb0a5c5be9e098640d38454b014aa"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/preview_rhythm/rhythm_unique_first.wav",
+      "bytes": 95244,
+      "sha256": "89314426673f91c4b7787373d091acaec6a44221d44c074144503790c6d633eb"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/preview_rhythm/rhythm_unique_second.wav",
+      "bytes": 290532,
+      "sha256": "403d2bcf931fdceedbe9a2311852f0c26a5637f5fbfc21fbb4e053cb23b0f6c9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/skill1.wav",
+      "bytes": 385908,
+      "sha256": "c9bd05f6ef14258e718604883e1a290ac78ff971912ad2fcf079e3a9e2fe6eb5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/skill2.wav",
+      "bytes": 460260,
+      "sha256": "0b45a9390d1d38fcff395ab9f213f36dd36a28bd9e098f7e33be4ff3a72b8563"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/sword_hit_1.wav",
+      "bytes": 20284,
+      "sha256": "759d7a03890b793127d54177f9bc50cf35eb3cc24689d8d5aa8a04caec92ef01"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/sword_hit_2.wav",
+      "bytes": 20756,
+      "sha256": "35fd72df8e6fe62e594d3da70e95f7216d69739a2e172a1a6122c2a8c42c49f6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/sword_hit_3.wav",
+      "bytes": 19120,
+      "sha256": "b910fa2273d692f8687969f800578c96467b93cced8befd3bc039a79db1b86b8"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/sfx/unique.wav",
+      "bytes": 1528196,
+      "sha256": "f86b595c14af89aba6aa3419544c7cce7f420f64622f998e15ff04b7b71a344a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Assets/ui/multiplayer_resume.png",
+      "bytes": 3588330,
+      "sha256": "8e02b46117eeed4a5f0b6eeb77363c301bbfa869c9b4e235cd6d7ca30a1b55a9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/ability/frames.bin",
+      "bytes": 2834776,
+      "sha256": "c91e98923cabf60d1e02f858464ab4f83904c7edb37df308901127ca437be851"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/ability/frames.json",
+      "bytes": 104740,
+      "sha256": "a707c4df648918f470c8489f42204f52d9fa7389ed1871c983a5e15ad7ff5936"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/ability/shader_materials.json",
+      "bytes": 24032,
+      "sha256": "709bfe3e1e7621258f5c988fa9d4906642ed68a98749231546285cab5cd42a6c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/entry/frames.bin",
+      "bytes": 593576,
+      "sha256": "63f7b8a62e9da64d835be284d23628e58fd55577a60096ad7cf46a8d597729e9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/entry/frames.json",
+      "bytes": 55443,
+      "sha256": "da730d57eef44ef0d9ba5dc2d470373aa9b2fef9faa3803f42ac4f5e44abf8d5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/ready/frames.bin",
+      "bytes": 287516,
+      "sha256": "d046ca611a81e50b39324b4643ef90d72b8042a007f9e35bc0d79ed92fcf5765"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/ready/frames.json",
+      "bytes": 20619,
+      "sha256": "210b7dd64d81d497065bbb4457acee7aa8853f2eab7d733364bcc2f6a4792857"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/08ef9a443ef14a49.png",
+      "bytes": 7175,
+      "sha256": "28c85cc52ec776a98482e065d01bb8c09022cd492a554eaa4b22cd1bef64ff71"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/1814d9316472d224.png",
+      "bytes": 6877,
+      "sha256": "0fee6210f7337d78e0e8275c15f7cc91ebc6a17ad1651645f3c68d117cce5af3"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/337722dd86009144.png",
+      "bytes": 85791,
+      "sha256": "e584facb48721432616d066f362d00dda0a417d01f2c4b676b813ccec7ed543b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/3d89057e2f2f4093.png",
+      "bytes": 69688,
+      "sha256": "101b5ea190d2d3c9602918fd81131b5bb6bb91eea9c02aafa50476cd581d40f9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/41b9b2728fc2b022.png",
+      "bytes": 7154,
+      "sha256": "6bf13c2cbdf5fbad747863b84f396198b5290e610e049eff53521e4e7a090af6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/4816778a7aa60572.png",
+      "bytes": 5759,
+      "sha256": "6ca12fe14a243011a1339a5c8cc08755bc05f8c076599e70535e598fcb4d6d23"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/4cbddaae0aedbec6.png",
+      "bytes": 1083,
+      "sha256": "b368ed1b7a28b431787d82e19958af716462da79df8e0c972fc6bbc220072a81"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/4db7eb4190372b43.png",
+      "bytes": 34841,
+      "sha256": "1f3e08e9e49c7fbb89e8eb4c1f8ee50d1b37a06dafc24770188ce55a7b9c0081"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/55fbbfd3d564413b.png",
+      "bytes": 13340,
+      "sha256": "b79a023068bfe814fd00863c42ce8fc59aa14f73057ef666ee654be9b57bdaeb"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/616eda46e02aa89f.png",
+      "bytes": 1210,
+      "sha256": "774ccd474d296b8c343877e9e6c80cc423e6ff334de3b45c74c7ebfbd4a09749"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/6db4e459d39a6239.png",
+      "bytes": 2267,
+      "sha256": "780c8f20be04c978a8dc37950d7e1a3e195f6919a6c7371a5d480fcfddfed442"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/73c70cd674ba08be.png",
+      "bytes": 63697,
+      "sha256": "dd1c2b10652c2bc4594a3e0c8ca3140ace65422493dd51e71c96951672b6a653"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/73f542c65260245d.png",
+      "bytes": 5558,
+      "sha256": "f25c3f4d6a3e3f1617f8f29f2b7ead6a37fceef929713d5810f0623105f1fdb3"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/75ab4e8bd39d34bf.png",
+      "bytes": 5785,
+      "sha256": "2088b83725eb85fa7dfc9d2a3022317e4d43d399365db1d6cb04854bb0192581"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/763c5ac0fe1fae76.png",
+      "bytes": 89628,
+      "sha256": "85c809b80bb7920b0947086f6db35ffc8502052c92a1457b8a9a63bd1181e0bc"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/78343471f7dbd5d3.png",
+      "bytes": 4207,
+      "sha256": "0fce666182bc3f693e30f64f3181b726755a10a63ed0bbdd7aa56f65a284e6eb"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/857db498675fc512.png",
+      "bytes": 3603,
+      "sha256": "3117c02cad1a168e1384e7024063928de04a9e81d2fb032ee082a7789387b0a2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/97251db854b3d59e.png",
+      "bytes": 278,
+      "sha256": "194cce62edfa316234198ff38803c772b4be8334865eed1e5bc3acf5674ac3b5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/b1a36c2f4e661a92.png",
+      "bytes": 15145,
+      "sha256": "99fcb94f40fc6e4e5581ec5357475e89a66b6d9dcd4766e7757512ef8d9ee31f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/b20cf0cf04847db9.png",
+      "bytes": 73450,
+      "sha256": "a6741f419a3cd914c38d93931dac5062d0b69a95923251a1bf81f0b72806133d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/c69b8aa19c25fee1.png",
+      "bytes": 34878,
+      "sha256": "aca9c30f3f273ba3d4d3ccdf9167e152cb57e0469dd8b6c0520f3eb06637f968"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/c8035e0ff8293d9e.png",
+      "bytes": 7911,
+      "sha256": "e84c54bbe742eecca704e5583b0fae8953ff8708dc9300955892271da80b49ea"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/cbf97accd1f64463.png",
+      "bytes": 11202,
+      "sha256": "70d99695c0cdede068e583e08ab3a18c9d4e0f4ca4cea4060e5f04816a6cd956"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/d050add29628ab49.png",
+      "bytes": 6862,
+      "sha256": "6d37fddd5aefe3c6848021255fc886063807bbe8002382c157e7437c9e90c708"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/d552e0ad157f1f6a.png",
+      "bytes": 44727,
+      "sha256": "d91606bccd885008c425f3803ddcf4d2eda9481974402d3ba72fadc9478e9929"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/e5b2e4be22d5a0b9.png",
+      "bytes": 84006,
+      "sha256": "81c78391f04883f4ada53605ed5e60f3a39f6276873f7e2f53670aa4cf8c5a40"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/common/textures/ea006693ca2620b9.png",
+      "bytes": 6946,
+      "sha256": "82627570036b0e9422965165b322b2f3c046f263776770680a7616504cb954c2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_normal/frames.bin",
+      "bytes": 110128,
+      "sha256": "f107929373fc2a68232956b21ed6602f8ceeea0503680f5c67b2573909c811c1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_normal/frames.json",
+      "bytes": 10279,
+      "sha256": "b7e47cee468f67e6451caa5e8703d1b6a7112cc53c289efe62f8d8234e6429e3"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_unique/frames.bin",
+      "bytes": 237292,
+      "sha256": "a4d66efca61a2baf86e9c3f24c8d435e0da0120d3b0132e587af3f4731fc2a80"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_unique/frames.json",
+      "bytes": 9019,
+      "sha256": "e4bbb66e121e79ba6a17edce0be4824c0d758fb9ffb2372540645fe5372ec55d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/feather_unique/shader_materials.json",
+      "bytes": 1998,
+      "sha256": "2aaf791d0ce89999270ea39dee4a3c292b56c10f55ed5d6417ad25bceba69264"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/frames.bin",
+      "bytes": 6126592,
+      "sha256": "eb5db466ebec084ad696b75c1ac04cd75ee7a8ee0c4e4eab8a3f838b60dbf05f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/frames.json",
+      "bytes": 231267,
+      "sha256": "0d0af8a0449887724579d5b8978fce0a1a18d60e94403893b12de20ec7c38ecd"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/particle_details.json",
+      "bytes": 470279,
+      "sha256": "5bae005758fe03d7b8887c902386ea137b771f847be0558afe7bf49fd0368c3e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/frames.bin",
+      "bytes": 45690700,
+      "sha256": "92663e7cd4b492f02649d1ae18543cd7250ac7ea2fa525969c115fcfbe9f2bd5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/frames.json",
+      "bytes": 535772,
+      "sha256": "cb9a78279b3c3c0a7544d069153b322e2e1f6f613d117e487fd06637cdbc2646"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/particle_details.json",
+      "bytes": 2282008,
+      "sha256": "14247ca696ab3d89a9c56ad648d661a8b619313b4a301dbbc80f4cdbed026edc"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shader_materials.json",
+      "bytes": 60251,
+      "sha256": "6710c6b50bc8c06d82092556417db69f4c8d6899334c903f839dabf947445e40"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/014e13425fe58d490fb1.gdshader",
+      "bytes": 3008,
+      "sha256": "74ec7af35875be627e2a75532b41ed893e2c5c41f28f6775c48426ed692ab188"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/0a0af3c0441ed220b113.gdshader",
+      "bytes": 4996,
+      "sha256": "0113846b0dcdf3444cfb04d649278a1be382d2edbc762145146e19dc09c861a0"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/14f2b6009dafe38902ca.gdshader",
+      "bytes": 2266,
+      "sha256": "9ba9599a0aac62f5e033ba9d9333d774b12bac1192f5d69c430ee6e48b64ca60"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/1afd563b4c1384fc7118.gdshader",
+      "bytes": 1845,
+      "sha256": "bc1ea4401a7c26a4aa6a5c6b5d6f402e8246f07666fc448a123c4f934474f3e6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/1e96d884e13cc91df41f.gdshader",
+      "bytes": 3456,
+      "sha256": "8eed22a5f376e0cde11ae87b15a9bc03b3ee103497e308a34fa42b56a16b8ff3"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/26d8079c9fcc3f7e69db.gdshader",
+      "bytes": 3322,
+      "sha256": "a851ce11130a2436ab40210b730071f90035eee28f21f64f2b3f73f566bae3ef"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/3636b82a0a1460f3a2ae.gdshader",
+      "bytes": 4124,
+      "sha256": "979d5c8ae1b832ef5b0613f0fc3ecb99889b2a5c8da0b2b9c0df07c6da3c6ed4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/37633d9b642f505b4491.gdshader",
+      "bytes": 4431,
+      "sha256": "f4d6b7f6ac321479256ecbba7daaf464eabbf29b58fbb6b1a6966539f6bc9f24"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/3af7fc1fa32cb055305d.gdshader",
+      "bytes": 3421,
+      "sha256": "8c36e9d72565814be7ee75ebc769b9f0b0460cf23c695c665726289809b733eb"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/3f1d3e5d4fd07f276f5c.gdshader",
+      "bytes": 2076,
+      "sha256": "9b4ec9e251ffc85b721b15aa8ed2a78b5b64e7d33f2afe02c4f8cb6ffc1612af"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/4db07ba7468da1b474ce.gdshader",
+      "bytes": 3606,
+      "sha256": "eb81e6bcafe42103f4f74113beafe840748d7324f5365b0e140d810e019f11a4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/50ecae661442e9862802.gdshader",
+      "bytes": 3410,
+      "sha256": "4ce686e99df00a922cfb62a7e4f8a3198dbde734ef902f8d8c0bd1fe3e1eee48"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/5b82bae1312331b891aa.gdshader",
+      "bytes": 3442,
+      "sha256": "0c29a00be75837a46f96c3c607ca80b3d9dab75f5cfe1dbe6b24d540ff512c6c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/5d1ea33641fa29c3143e.gdshader",
+      "bytes": 2381,
+      "sha256": "b0357cc7f6b1a1edc34cf99add0b7a26679e2bda4fe06c19fb5edfd1177ae8b0"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/8644b5128f63ba05d932.gdshader",
+      "bytes": 1857,
+      "sha256": "03e8af3ef6c33eee2cc4c2100a6f2c70644c17d205a65aad522d6edb1afadc03"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/8d37014631fe8cee025a.gdshader",
+      "bytes": 3118,
+      "sha256": "6bf8948a43b62f12c493e3c8450577561cb65975163b2c6476814592bfe61cee"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/94650313ed02b8cf2758.gdshader",
+      "bytes": 3008,
+      "sha256": "d6adbc1b54a053de36faa195cc4aa89724cef2a7d1d3d4e86d07165483a2fa9a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/c226ae2a43c193c45834.gdshader",
+      "bytes": 3729,
+      "sha256": "4f31476c6eadaa2f9de86e8688911a47cfed95adb2c717edd59def618dd38fa3"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/c48cd40c7e3a353d611d.gdshader",
+      "bytes": 4177,
+      "sha256": "e0b923311495ec9e754a1f762fd93058485b1cdf9b1401cac536b0e5691510df"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/d77e38c00521ac685ba2.gdshader",
+      "bytes": 1845,
+      "sha256": "647767822cd171011681cc786add9679c1f519fd18e051054397bfd8af0ef350"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/shaders/dc7ba042b98bc9d9496d.gdshader",
+      "bytes": 2116,
+      "sha256": "b45d05610a38438a8bdb911feb736dd32c084afd95373d984729ad7844903489"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/07a537355fe16c854ebb.png",
+      "bytes": 20580,
+      "sha256": "fc5a949b589d4d147f477a2e19acd36ec6df6ce5818ede47e59ec21bd1f9673c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/09051e210680de1adc30.png",
+      "bytes": 88764,
+      "sha256": "c93a434a18e1e4203ce7ce7683638a67e3b63c278de3a741fb43d0ccbb453784"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/0c5e19644f440cac9b8d.png",
+      "bytes": 16713,
+      "sha256": "bda204695708ffdd96e04f2524b2c6580973a8dedbe987fbe0eaa641cc2176d6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/0cd99035fbda1a3094dc.png",
+      "bytes": 93869,
+      "sha256": "03370692d918a69153eb792d4170044dc877649e9f29b2a54eaa39fdbad3e380"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/0d83abf051579c4bce37.png",
+      "bytes": 1083,
+      "sha256": "b368ed1b7a28b431787d82e19958af716462da79df8e0c972fc6bbc220072a81"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/15a4e42f18bae5eb60b8.png",
+      "bytes": 28909,
+      "sha256": "671b70ca4c6e119589bd87629f261e7071c21a67e62b7d44d84dba997a46cf12"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/1ab132edefae80e3253e.png",
+      "bytes": 3876,
+      "sha256": "b6113c71060ef5da3c5e6d48884e8433687dbced2392c57dfdd8920f24b8f81d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/1e6f44cbb65d82da77f1.png",
+      "bytes": 10506,
+      "sha256": "855e1d18f6de16e22b86e2181c4ac9890c6ab878cf0af2a2667c6c567778d648"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/2911fb5fc6ea5cf84cef.png",
+      "bytes": 136912,
+      "sha256": "1552ee0d38c5a22f02405fec8f8c1297997f6ed7f78d63189645c13bdec7607a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/2be5f6359c1b8b950b8b.png",
+      "bytes": 14472,
+      "sha256": "b18b4bffbcf78c38e108119bb9c6e16a3d40646edc6668e0db79b00e112918ea"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/2c0cef3c3b212719c977.png",
+      "bytes": 21249,
+      "sha256": "7f4702d5f734cd476fbb849182e5f61c2b7392fab3943099b4f320f15d50eb33"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/2d2ceb20983e504fdfce.png",
+      "bytes": 90686,
+      "sha256": "602a683e876047e81184a4c600704bab3e13fa3ceca82238142f507429476f5c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/2d54ff9958dd30298dff.png",
+      "bytes": 2547,
+      "sha256": "a9a4f8f3cc805a9ada8dc785e415e1887c9060760f41a4bedf8d9978671898e3"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/3042b9109295936e9688.png",
+      "bytes": 37865,
+      "sha256": "b91152910fd987b2c408040ef17ec17df99fcddb0de21671572f6c063259e907"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/321e7bb663ce2b532e58.png",
+      "bytes": 27798,
+      "sha256": "6c9ee98effdfa0a8432418376eb534c32f96b773b2ed958bc00d7c7fc930daaa"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/3abbb07c0d0c18996b47.png",
+      "bytes": 111117,
+      "sha256": "964a0b93c8c30323525eb0c103424c6e1c59bd26c43c788b6690418e001f1b96"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/3bc3e0d6283d706a3382.png",
+      "bytes": 20361,
+      "sha256": "cc78b1dee88d3f97d7cd7bbf014b9ecd1f489e8d5619b322a9cd4848a3bcad02"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/411871b70c27db961c74.png",
+      "bytes": 45562,
+      "sha256": "5bc43fae16346015ef99ce1c88a7dd37c496e124d2d9719631b1aefdb2a763ea"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/4d98cca558be8aaf0cce.png",
+      "bytes": 52557,
+      "sha256": "8e6aa70bf32d40f61f9b644b8479c9d142e01b950a8c997fd5a9198147530ced"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/4e0eb9de1d393c434539.png",
+      "bytes": 1357,
+      "sha256": "bfc40756ecd1b263745ba35edc118281c430f21092548c75432ca80e1d0fde6a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/5232fe13c14367c9b29a.png",
+      "bytes": 14672,
+      "sha256": "b2ccd0a4159d0aac4fcdcf91b8986e96110b17d24391a752193ef36b5d16861d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/523b7cf01dc0c10e8fa3.png",
+      "bytes": 19358,
+      "sha256": "bbd9bd0f11d2f0bbbeed056cd53cd377d0e53080c12a4e9bed8353517f2ce5c9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/590fa1ed92144b1e0859.png",
+      "bytes": 73450,
+      "sha256": "a6741f419a3cd914c38d93931dac5062d0b69a95923251a1bf81f0b72806133d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/5a17a9e33479d86a4647.png",
+      "bytes": 28281,
+      "sha256": "b2fbde04ba2dd40cc69563064b641af25824b8b58a45814bf4a59b5a494464b2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/5a1ec239af0a55563e78.png",
+      "bytes": 10486,
+      "sha256": "4c5689f4d9734c3c55bdfc25895d3e7b72f28e6324ac87d5476c749634f8fe0f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/5de489d9d6b6dc3f4640.png",
+      "bytes": 118578,
+      "sha256": "635c196131731c633793f64b03e03a725642b0315cab0c348e1e420911f299cf"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/5f53e6a75242e86074bb.png",
+      "bytes": 78005,
+      "sha256": "563a2128c909cddef8592d670e1db5d12f228817f38dfaa03cf16c63fce9f4f5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/62628cf68a336b4ee591.png",
+      "bytes": 85791,
+      "sha256": "e584facb48721432616d066f362d00dda0a417d01f2c4b676b813ccec7ed543b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/6b61e7bbab71c6b83147.png",
+      "bytes": 231226,
+      "sha256": "5ea511db9be6fd75eb2552cee483bd12d6eed6565df70b19ce5a46821c87154d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/6d31bb67809195a02959.png",
+      "bytes": 38541,
+      "sha256": "8da66e188a17a199ac4244b1557943140ff9db4a38f2f73abd528778d40d478a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/70072864fedd0f094f7d.png",
+      "bytes": 43924,
+      "sha256": "1a12be8e703a8de4c84e5fa06cf92e21dc46369d2f4db68b86f777927d17c860"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/75006a1ff3588856f9ec.png",
+      "bytes": 6119,
+      "sha256": "290d6340247768414c43fac990d978a180fd0847e43be9a7a2830a9bd34cea14"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/77488e19e4d4c9ee0fc5.png",
+      "bytes": 462619,
+      "sha256": "a38129559d1142a7db218344655c56c5e04ba1f6a88ebc5ef08c39a7d680fccf"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/7a4b6665bb6cd6b7616a.png",
+      "bytes": 6236,
+      "sha256": "2c2f8127bb201205e2af49a7ef3daf8f700671ad4f75cadf4c8028f87ce5d999"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/7d1fd6c37db0dcc1ea99.png",
+      "bytes": 89628,
+      "sha256": "85c809b80bb7920b0947086f6db35ffc8502052c92a1457b8a9a63bd1181e0bc"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/7d87fd0e5281dcb8de9d.png",
+      "bytes": 1547,
+      "sha256": "f134859b568212683b6f50a1c694fa422915feeffe9ab01aa2217e6432755854"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/7eb39fd37f5840c2e631.png",
+      "bytes": 98207,
+      "sha256": "4c1cb150e4e2ee43b01b633dbba87fef463a292c6c4d5190c260ca55be500f0f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/81180ee0412478336c02.png",
+      "bytes": 53075,
+      "sha256": "1b96e1bbd4a005cd08c922726b60d4616b2c857268a46b3fd936fab62c543bcc"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/84017dc16cfbb9c87c49.png",
+      "bytes": 51240,
+      "sha256": "fa57e0bdb6423989e19db30e9433debd9d2670f12aab6d1e19e47959a6b8f204"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/84065a6ac9f6cde1a634.png",
+      "bytes": 18416,
+      "sha256": "72344e359dcf05c3e9a3ea26a017d598ac1e1e6e244957c39276d809abbe1be7"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/845675ad48d9ebd7e4d3.png",
+      "bytes": 62599,
+      "sha256": "95d7017acda60ed548c3c9a6c935d66c41e3f3e49b42efaa304e521546a14cc6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/862f299c94655f0e79fb.png",
+      "bytes": 12040,
+      "sha256": "20b520fb330a940eb269eaed7f4cf2aedc58442e251bdf1261bf0ee9f6b48114"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/89b19b5380bbb4464a29.png",
+      "bytes": 2361,
+      "sha256": "5a890698d44f1f0dfb495449591267ffe113615a7005b29d847201c71ee0e175"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/8fbb18c24c886f100b38.png",
+      "bytes": 69688,
+      "sha256": "101b5ea190d2d3c9602918fd81131b5bb6bb91eea9c02aafa50476cd581d40f9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/9177e968c16ebae8d963.png",
+      "bytes": 6946,
+      "sha256": "82627570036b0e9422965165b322b2f3c046f263776770680a7616504cb954c2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/92285181e36a3207bb7a.png",
+      "bytes": 72542,
+      "sha256": "8cc2fb81fa1d3882f864e3cbe0ccdd153eaa58ef8310cca24fe7a9bf9f84c7c1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/93be498a3ab81bc60e20.png",
+      "bytes": 16324,
+      "sha256": "3fc1abfb7720cfa8404be094cd50e6098f7422a2f0bf615dcd9162d0c87e5494"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/96065bcf615ffdb2f820.png",
+      "bytes": 268,
+      "sha256": "e9bcab0491a60a493c26afdc0823242c540e9d5adc7a3a487870499788ad7ac4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/97b668f31f7336d127db.png",
+      "bytes": 24286,
+      "sha256": "80d23be98d2ebbd46eb58420f58a94a2e20273e920fea91f8519b6f52e914b11"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/9862ccd0d985bf37e3f8.png",
+      "bytes": 24965,
+      "sha256": "e2eca318d429c35d60f527ce4a468a79d626044302e14b4bd62c47e3c3e17b4c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/99b0289207b5751a27a8.png",
+      "bytes": 35284,
+      "sha256": "338560ecce216d27bb01dbd235241d570682f82081aa7f152222e178f623014d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/9b823fdaabaad23e2873.png",
+      "bytes": 26839,
+      "sha256": "dacd9192a84abc379dd1d2400ee6735dd2310f3f623fcbc00f5f8e1c12c94023"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/a12e4d8af4c0b0c392a6.png",
+      "bytes": 9096,
+      "sha256": "6dded52569c4e717695e34dc2802a29535f3e4d5c258479e20354e1fb5244e98"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/a1d01f98f404908170d0.png",
+      "bytes": 22255,
+      "sha256": "40ea22d804bc46c106980628db1dda5f776a488ff066ad348aa819804721aea1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/a85c8348a4c388bdd13a.png",
+      "bytes": 19873,
+      "sha256": "22d28209306e4b8ad56b16f7c6d696398e69ae485fe402f7e22229a581e2e235"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/aa968e7baee83f725714.png",
+      "bytes": 27028,
+      "sha256": "ba888d37380c3bcdee176535f9fd208fe9445a77f3ef8a019d1d09f377d84ec2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/abf1ba8d0217cc4aea21.png",
+      "bytes": 43217,
+      "sha256": "c6d795a6646bd1a910e3581e232bd8e39a70fad18e3b66fa3fcf3dfae621bafa"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/ae91d627d13f1fd46fb4.png",
+      "bytes": 11576,
+      "sha256": "1571ee59d096f2a5984ade02570380c076a4f333eb6c7ce949b1126ea957bff1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/b1e6d5b67fa62d87048e.png",
+      "bytes": 11750,
+      "sha256": "238b6b6293e9cdede44ec7d97e7b40d4aaf3036a90c8ab5ace8039b507b5f18d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/b2213aca272b9d55386c.png",
+      "bytes": 45852,
+      "sha256": "be3c2aa6dd6de8c1d5fe628e4d34c0f546bf31795a68e0c1bb028914e3f0d76b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/b28aa03afd3d4d5b2adf.png",
+      "bytes": 7825,
+      "sha256": "3e67d76ec633e981d4b9436c970822522eff0ad0879f0899c6c22e3b8e27698d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/b4502f6eb18e51d12e34.png",
+      "bytes": 4817,
+      "sha256": "25a2bc5ff89f6c569416c02b59b6501adfec4f8bfe27fea0f506e852b385494d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/b55792a28533d5de2787.png",
+      "bytes": 13280,
+      "sha256": "0d03418cdf0f968b9fec95b3fd0c0024d4e226cfced68e6d2a99ecd63568f96d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/b722e72dfb6ceb069793.png",
+      "bytes": 46845,
+      "sha256": "9dfb0000f8ca1a55409141f6825ada07ab01569da392508e235100c9dc302f3c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/bb20533436ac1952f102.png",
+      "bytes": 5307,
+      "sha256": "1020d4e31d7260f6ca67b5edda6e80cc7616953416a6315dd92f563d653fa041"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/be332b7a7769fe0134f7.png",
+      "bytes": 61739,
+      "sha256": "468abb9bc881fcd4978c49c71a6a5b28d7b2aead4eb20cc83db2058f5b57ff52"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/c01ecd08043f667875f3.png",
+      "bytes": 26594,
+      "sha256": "480b3ac0bf7a0b74d8d6518e317d3774e5b450fc0061af5d990fb3fb68e30b33"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/c116e44b36815e5512a7.png",
+      "bytes": 13864,
+      "sha256": "92e6d4064fa47b0719b7ea8c605eb11df6a4ee9b0a03051149a851ddd89abe6d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/c6e9cc02ef7052a7fb44.png",
+      "bytes": 7915,
+      "sha256": "2f7ed73777e59f7ffe09044d9aeb70b16f19207d8e6547cd623c10b3c260fbf2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/c8ec0aff3553454e9c10.png",
+      "bytes": 277242,
+      "sha256": "17fde4881ec7559f0cb994d0836b47b4499ab92e7f27441ae47b9a6be501fa33"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/d47aef2ba2bfbb097343.png",
+      "bytes": 3149,
+      "sha256": "6b58bc6a714ff1adda212e1a5a13274414446ceb19607388c4ee2db030d3ffa2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/d489b69e22ab1886f0ce.png",
+      "bytes": 6671,
+      "sha256": "ae4a56afd7344798d03973b8dd7cf1075bee4ef4a6318999a1b956a36eb53af1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/d5d7b4018c6830a58090.png",
+      "bytes": 37221,
+      "sha256": "4a6f495dbb3a4c28b73d8845a0e143d3aec8288976c99a87045cc35aa52b05c1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/d85aa39f384804b7155e.png",
+      "bytes": 25460,
+      "sha256": "7d8866c757dce37d71460872b1c43247c92fa8b6053f4c671d02de514486032d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/d95cc98e30946c248644.png",
+      "bytes": 120024,
+      "sha256": "359c94b8d392b11e81e341ac587406b50e6d040ee6937da36f8614bbe8bd777f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/e2df4decadf129c60271.png",
+      "bytes": 20367,
+      "sha256": "833323901ae847de0ef84b6bb7b96bea670b41b84e2a24b88a1fdbd921a0a00f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/e5fb427fc7721450a9c2.png",
+      "bytes": 7422,
+      "sha256": "23e660bd965d69c915e4cab614b5a935551ff48adedd628500fda17078b8023a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/e65ae0c77d01ef17d214.png",
+      "bytes": 8673,
+      "sha256": "379a03a8960ac08744ced00c66737793f9f7fdea0413ea30fc6f812171a853e6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/e7cd934e5e193e5ccd0a.png",
+      "bytes": 15699,
+      "sha256": "71b7bf2b03d8c7ceb79207bcac180b5eb170ff7d9f748f82f4de0188cf299104"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/ea14c7e4747054ab6614.png",
+      "bytes": 18327,
+      "sha256": "6646f7996eb490823fbca6c32e4e7399c55207d89a804bb6fe6cf11266b734f5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/efc661aaae7f910b91cb.png",
+      "bytes": 5558,
+      "sha256": "f25c3f4d6a3e3f1617f8f29f2b7ead6a37fceef929713d5810f0623105f1fdb3"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/f1b406ccc1d747af661f.png",
+      "bytes": 15705,
+      "sha256": "b0a8c8a72ac19e7bc431a2bce6da6c20fa60963a5a524b25ba3b8a18e73078d0"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/f57c01877e270ef297fb.png",
+      "bytes": 12487,
+      "sha256": "57ee97795953c2ecbfb79913e33b95d02c6d8cace1ad190ede7d10a0c489198c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/f5a6eb43ba6cdc055d9f.png",
+      "bytes": 152271,
+      "sha256": "4d04f3b97de370afe67e79dfdaefd8c3309effe1aee1633ec836f63398fe5035"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/f981a62aeb4ec27fda9d.png",
+      "bytes": 8757,
+      "sha256": "5673daaae4ffca5f2578b7b8dbfc543c9a5f126a8699cdfd7e5cfb969fc079f2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/skill2/textures/fb32b6d7d344441e5c46.png",
+      "bytes": 10051,
+      "sha256": "66d09a1bba36a0a473e22101b41de97047ede46f0d37f2bb75afcb582083702d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/05be85b91c1dede5c83d.png",
+      "bytes": 4749,
+      "sha256": "1fb7197f9d239b147082f99a62dadd1c93f75d5ea5038999d33fc28b0cb02f88"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/0c5e19644f440cac9b8d.png",
+      "bytes": 16713,
+      "sha256": "bda204695708ffdd96e04f2524b2c6580973a8dedbe987fbe0eaa641cc2176d6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/15a4e42f18bae5eb60b8.png",
+      "bytes": 28909,
+      "sha256": "671b70ca4c6e119589bd87629f261e7071c21a67e62b7d44d84dba997a46cf12"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/2b864688b3dc920b7219.png",
+      "bytes": 43903,
+      "sha256": "6484a95c7a56c04f300658dce7fd5e969b24220502da26acb38918a3c7d7443a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/2be5f6359c1b8b950b8b.png",
+      "bytes": 14472,
+      "sha256": "b18b4bffbcf78c38e108119bb9c6e16a3d40646edc6668e0db79b00e112918ea"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/2d2ceb20983e504fdfce.png",
+      "bytes": 90686,
+      "sha256": "602a683e876047e81184a4c600704bab3e13fa3ceca82238142f507429476f5c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/3042b9109295936e9688.png",
+      "bytes": 37865,
+      "sha256": "b91152910fd987b2c408040ef17ec17df99fcddb0de21671572f6c063259e907"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/321e7bb663ce2b532e58.png",
+      "bytes": 27798,
+      "sha256": "6c9ee98effdfa0a8432418376eb534c32f96b773b2ed958bc00d7c7fc930daaa"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/37e092e57ab27b34d0ad.png",
+      "bytes": 23406,
+      "sha256": "b1d67dbfb61826f73138501b6113ec8944b45422214ca23ab348c96b48b7f1f8"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/3bc3e0d6283d706a3382.png",
+      "bytes": 20361,
+      "sha256": "cc78b1dee88d3f97d7cd7bbf014b9ecd1f489e8d5619b322a9cd4848a3bcad02"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/5071e52ffce94f428c34.png",
+      "bytes": 67443,
+      "sha256": "b40e20515a12eac41821d69a93ec4c6bb39173d685b7c3c3317b938a6fd30ee5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/5232fe13c14367c9b29a.png",
+      "bytes": 14672,
+      "sha256": "b2ccd0a4159d0aac4fcdcf91b8986e96110b17d24391a752193ef36b5d16861d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/523b7cf01dc0c10e8fa3.png",
+      "bytes": 19358,
+      "sha256": "bbd9bd0f11d2f0bbbeed056cd53cd377d0e53080c12a4e9bed8353517f2ce5c9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/590fa1ed92144b1e0859.png",
+      "bytes": 73450,
+      "sha256": "a6741f419a3cd914c38d93931dac5062d0b69a95923251a1bf81f0b72806133d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/5a17a9e33479d86a4647.png",
+      "bytes": 28281,
+      "sha256": "b2fbde04ba2dd40cc69563064b641af25824b8b58a45814bf4a59b5a494464b2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/5a1ec239af0a55563e78.png",
+      "bytes": 10486,
+      "sha256": "4c5689f4d9734c3c55bdfc25895d3e7b72f28e6324ac87d5476c749634f8fe0f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/5aa89e881867e6df9428.png",
+      "bytes": 6886,
+      "sha256": "ee1d1b4a9c1a7504cf6fcb9b27904d713501bfb354c1521b48d55c708250caf8"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/5eaf21211364dbb4cf19.png",
+      "bytes": 16850,
+      "sha256": "cd6022707619c68df29bc25a0d0e94e5ce0bcee9eedfa156a6dbdb498f7b301b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/5f53e6a75242e86074bb.png",
+      "bytes": 78005,
+      "sha256": "563a2128c909cddef8592d670e1db5d12f228817f38dfaa03cf16c63fce9f4f5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/62628cf68a336b4ee591.png",
+      "bytes": 85791,
+      "sha256": "e584facb48721432616d066f362d00dda0a417d01f2c4b676b813ccec7ed543b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/6b61e7bbab71c6b83147.png",
+      "bytes": 231226,
+      "sha256": "5ea511db9be6fd75eb2552cee483bd12d6eed6565df70b19ce5a46821c87154d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/6d31bb67809195a02959.png",
+      "bytes": 38541,
+      "sha256": "8da66e188a17a199ac4244b1557943140ff9db4a38f2f73abd528778d40d478a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/75006a1ff3588856f9ec.png",
+      "bytes": 6119,
+      "sha256": "290d6340247768414c43fac990d978a180fd0847e43be9a7a2830a9bd34cea14"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/75641cf2daffea9598dc.png",
+      "bytes": 7108,
+      "sha256": "c9430f2c0441b5bb6dc25354cdbede998956a3958b9936ce2f64b60edb44a7c5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/7754b3e3f77e7b83707e.png",
+      "bytes": 4282,
+      "sha256": "333096b6744ec76be890b1d10fc3701b182386cae2ad9ef7733445da2a9da6ee"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/7a4b6665bb6cd6b7616a.png",
+      "bytes": 6236,
+      "sha256": "2c2f8127bb201205e2af49a7ef3daf8f700671ad4f75cadf4c8028f87ce5d999"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/7d1fd6c37db0dcc1ea99.png",
+      "bytes": 89628,
+      "sha256": "85c809b80bb7920b0947086f6db35ffc8502052c92a1457b8a9a63bd1181e0bc"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/7d87fd0e5281dcb8de9d.png",
+      "bytes": 1547,
+      "sha256": "f134859b568212683b6f50a1c694fa422915feeffe9ab01aa2217e6432755854"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/7eb39fd37f5840c2e631.png",
+      "bytes": 98207,
+      "sha256": "4c1cb150e4e2ee43b01b633dbba87fef463a292c6c4d5190c260ca55be500f0f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/8270986d06179906a453.png",
+      "bytes": 15795,
+      "sha256": "17f24be2eb05fb72afcac453583fbaa71c26e35b9b8e58ffeb146a9e23c4029e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/84017dc16cfbb9c87c49.png",
+      "bytes": 51240,
+      "sha256": "fa57e0bdb6423989e19db30e9433debd9d2670f12aab6d1e19e47959a6b8f204"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/849b623015fb47b0893f.png",
+      "bytes": 278,
+      "sha256": "194cce62edfa316234198ff38803c772b4be8334865eed1e5bc3acf5674ac3b5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/862f299c94655f0e79fb.png",
+      "bytes": 12040,
+      "sha256": "20b520fb330a940eb269eaed7f4cf2aedc58442e251bdf1261bf0ee9f6b48114"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/89b19b5380bbb4464a29.png",
+      "bytes": 2361,
+      "sha256": "5a890698d44f1f0dfb495449591267ffe113615a7005b29d847201c71ee0e175"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/8d570d4943e5694c3a81.png",
+      "bytes": 7825,
+      "sha256": "3e67d76ec633e981d4b9436c970822522eff0ad0879f0899c6c22e3b8e27698d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/9177e968c16ebae8d963.png",
+      "bytes": 6946,
+      "sha256": "82627570036b0e9422965165b322b2f3c046f263776770680a7616504cb954c2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/92285181e36a3207bb7a.png",
+      "bytes": 72542,
+      "sha256": "8cc2fb81fa1d3882f864e3cbe0ccdd153eaa58ef8310cca24fe7a9bf9f84c7c1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/93be498a3ab81bc60e20.png",
+      "bytes": 16324,
+      "sha256": "3fc1abfb7720cfa8404be094cd50e6098f7422a2f0bf615dcd9162d0c87e5494"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/96065bcf615ffdb2f820.png",
+      "bytes": 268,
+      "sha256": "e9bcab0491a60a493c26afdc0823242c540e9d5adc7a3a487870499788ad7ac4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/9758904ef88206a19bfd.png",
+      "bytes": 17666,
+      "sha256": "c89df2de09c87c350c10e3f432b620e97f988ffd9a84dd2b7fadfbe531adae49"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/97b668f31f7336d127db.png",
+      "bytes": 24286,
+      "sha256": "80d23be98d2ebbd46eb58420f58a94a2e20273e920fea91f8519b6f52e914b11"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/9862ccd0d985bf37e3f8.png",
+      "bytes": 24965,
+      "sha256": "e2eca318d429c35d60f527ce4a468a79d626044302e14b4bd62c47e3c3e17b4c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/99329a91842db46e6195.png",
+      "bytes": 16133,
+      "sha256": "5e9ffaae79b51e9095040102e8f1e3ffad0716869e50b46e874790c49b468db4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/99457f7f882a50da24e3.png",
+      "bytes": 38073,
+      "sha256": "85afe0482d2dae6fc3ac6451dc116287ac7fd576f7c3e2b56e2f8fc130500f53"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/99b0289207b5751a27a8.png",
+      "bytes": 35284,
+      "sha256": "338560ecce216d27bb01dbd235241d570682f82081aa7f152222e178f623014d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/9b823fdaabaad23e2873.png",
+      "bytes": 26839,
+      "sha256": "dacd9192a84abc379dd1d2400ee6735dd2310f3f623fcbc00f5f8e1c12c94023"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/abf1ba8d0217cc4aea21.png",
+      "bytes": 43217,
+      "sha256": "c6d795a6646bd1a910e3581e232bd8e39a70fad18e3b66fa3fcf3dfae621bafa"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/b28aa03afd3d4d5b2adf.png",
+      "bytes": 7825,
+      "sha256": "3e67d76ec633e981d4b9436c970822522eff0ad0879f0899c6c22e3b8e27698d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/b3a40f21071c2ffe7018.png",
+      "bytes": 33825,
+      "sha256": "e57e3001cb681209872d8cd6efb51da3f75ab816b8b05951c255e4fc0deac69d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/b55792a28533d5de2787.png",
+      "bytes": 13280,
+      "sha256": "0d03418cdf0f968b9fec95b3fd0c0024d4e226cfced68e6d2a99ecd63568f96d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/bb20533436ac1952f102.png",
+      "bytes": 5307,
+      "sha256": "1020d4e31d7260f6ca67b5edda6e80cc7616953416a6315dd92f563d653fa041"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/be332b7a7769fe0134f7.png",
+      "bytes": 61739,
+      "sha256": "468abb9bc881fcd4978c49c71a6a5b28d7b2aead4eb20cc83db2058f5b57ff52"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/c01ecd08043f667875f3.png",
+      "bytes": 26594,
+      "sha256": "480b3ac0bf7a0b74d8d6518e317d3774e5b450fc0061af5d990fb3fb68e30b33"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/c75e23f1992869e2fbdb.png",
+      "bytes": 17677,
+      "sha256": "2309bb1bd8db3f4f44f800c53de7a2a2ec1767b6b31555d949301df0913987c4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/c8ec0aff3553454e9c10.png",
+      "bytes": 277242,
+      "sha256": "17fde4881ec7559f0cb994d0836b47b4499ab92e7f27441ae47b9a6be501fa33"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/d489b69e22ab1886f0ce.png",
+      "bytes": 6671,
+      "sha256": "ae4a56afd7344798d03973b8dd7cf1075bee4ef4a6318999a1b956a36eb53af1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/d5d7b4018c6830a58090.png",
+      "bytes": 37221,
+      "sha256": "4a6f495dbb3a4c28b73d8845a0e143d3aec8288976c99a87045cc35aa52b05c1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/e2df4decadf129c60271.png",
+      "bytes": 20367,
+      "sha256": "833323901ae847de0ef84b6bb7b96bea670b41b84e2a24b88a1fdbd921a0a00f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/e5fb427fc7721450a9c2.png",
+      "bytes": 7422,
+      "sha256": "23e660bd965d69c915e4cab614b5a935551ff48adedd628500fda17078b8023a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/efc661aaae7f910b91cb.png",
+      "bytes": 5558,
+      "sha256": "f25c3f4d6a3e3f1617f8f29f2b7ead6a37fceef929713d5810f0623105f1fdb3"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/f1b406ccc1d747af661f.png",
+      "bytes": 15705,
+      "sha256": "b0a8c8a72ac19e7bc431a2bce6da6c20fa60963a5a524b25ba3b8a18e73078d0"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/f5a6eb43ba6cdc055d9f.png",
+      "bytes": 152271,
+      "sha256": "4d04f3b97de370afe67e79dfdaefd8c3309effe1aee1633ec836f63398fe5035"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/f981a62aeb4ec27fda9d.png",
+      "bytes": 8757,
+      "sha256": "5673daaae4ffca5f2578b7b8dbfc543c9a5f126a8699cdfd7e5cfb969fc079f2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/textures/fb32b6d7d344441e5c46.png",
+      "bytes": 10051,
+      "sha256": "66d09a1bba36a0a473e22101b41de97047ede46f0d37f2bb75afcb582083702d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/camera.json",
+      "bytes": 1083283,
+      "sha256": "dfc3c22ad174f66fa5853200f9e62a62d97ca34e36c33b9f48caa232e814deca"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/frames.bin",
+      "bytes": 329596396,
+      "sha256": "67d0230b39d6c2fea4b1d8dfd51d0258658cb442e2da154b9dc52ad643956b78"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/frames.json",
+      "bytes": 2580415,
+      "sha256": "eec4496232acb5fc78ab6db9834b1d546875fe3d10bc60ff8de7c8ca681a86be"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shader_materials.json",
+      "bytes": 158459,
+      "sha256": "dd99f9fb206f5592d9e9a2d2d358a02cb89e516736cf9751af76efb23331603b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/016a294bfe004f2a5398.gdshader",
+      "bytes": 2478,
+      "sha256": "2dd670c420457f2341dcc9b77db5171549816d89a3bd4219c6f9a1e4606db33f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/0d32822d5e8b10b79e66.gdshader",
+      "bytes": 2832,
+      "sha256": "4ac001f8ac05ee647f7a6b1f8aebfbe9ec569e3524317d9d7793def7e51e0e43"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/0e904660ea61b039f22c.gdshader",
+      "bytes": 3954,
+      "sha256": "de21b1d196505c73fb06ee30803ce6bdfb687d9878c284408e06d1495be3cfbe"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/11853daaf08f17b80d13.gdshader",
+      "bytes": 5621,
+      "sha256": "b3c3eef2f4bafc720ababedb543d5bcf0c28e8f7b65a345bce54fdb8d81fcf46"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/179df1407c12dee54918.gdshader",
+      "bytes": 3489,
+      "sha256": "81a23d74847eb665404b7cb81b1dc822776f1c8f0c1e0146d1b510d8109795ec"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/17e0ab56862044974e99.gdshader",
+      "bytes": 2944,
+      "sha256": "1b44e4d0df9752473518d660126ea47ca5eeec07ba161607477b0a7dce08ab4e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/1ad132763848abb87f66.gdshader",
+      "bytes": 3588,
+      "sha256": "f4875cf5f7762a759c6e53c391f48ccaf21363fe8568ec4505589ff1632387b2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/1be6716f5da4c71a5d43.gdshader",
+      "bytes": 4640,
+      "sha256": "3e2205237370432caed2363d5cdc1fcc94324c5d703a5b40694cd9865b78f2e4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/2bf2f51cfa78626c62cb.gdshader",
+      "bytes": 5247,
+      "sha256": "3ce8ea4dde45ae29b33c2661d5674c2bdd502511abfbe52bc3457f843836264b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/3387f9048b4a22ebb3ea.gdshader",
+      "bytes": 3489,
+      "sha256": "dbb95414894593e487e1ad7fada863c18c457255adb62b91c214167becd5311a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/3397ec7ba93162b16340.gdshader",
+      "bytes": 4227,
+      "sha256": "e98bfb98e2446379aa60a8b1e3776f915b1e728a5193122fbbb027135db68127"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/37807345aa3145b1f100.gdshader",
+      "bytes": 2466,
+      "sha256": "e3a29f44817bd2969f02bf96e02e5fc6a7306c5b294fbf7f3cffaaf8fd8c55d3"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/3bb298d4369c3ac3333c.gdshader",
+      "bytes": 6573,
+      "sha256": "5ede1699740748d179347e4b86724c3af576518d1437ca11818e3097d5fc2468"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/4093352b29683457b91d.gdshader",
+      "bytes": 2466,
+      "sha256": "7908b8a3349301141f1e47586b5796ec6c5a36bcd50f2c1886a08ee0e30980f0"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/421dcfcb0eda931bff4d.gdshader",
+      "bytes": 3853,
+      "sha256": "7ac98673a6068180f163b112a97898d0e3467309f68c1b34b7cd374efdf7f20e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/517d2e91d46e229dccdb.gdshader",
+      "bytes": 5033,
+      "sha256": "bad29a7639dda926edf951f8acb23443d109aeb1e16f6cf9faf852ba586ac82c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/53a0a4919d82cddb68f5.gdshader",
+      "bytes": 3503,
+      "sha256": "fd2be3b356f8d0b04129cc8083299a4983848d5c8ca711041aff57d24c99ddc1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/560dd22805ccc69a81d7.gdshader",
+      "bytes": 4194,
+      "sha256": "b801abae9530c73f9536ab6c86bcf7ae2b9dca26279937a195114390b3e491e7"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/5650cfc9f8b1d9b590e7.gdshader",
+      "bytes": 4524,
+      "sha256": "ecf54b57c68d68999d31239a8156321d5ed8d970d979defec3b27e7e90b7b779"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/6eb81dc060f4cbb1f712.gdshader",
+      "bytes": 5888,
+      "sha256": "8aa047a0956153d5e2715b2ca7834b6dcebd807d450830e54a47bae53f68d828"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/708cb09d3aa37335f496.gdshader",
+      "bytes": 6840,
+      "sha256": "c4f47607d58fb2b455b50e9fdb796ea6c831094107522e0f095b3f4a2f9c8f0d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/74439f90ceb75d5dab42.gdshader",
+      "bytes": 4898,
+      "sha256": "a19369a53369e0cfdc6fe78e8dea570a4070dea46980169083d6f5292bded2eb"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/7554fe9e567b578ee4fe.gdshader",
+      "bytes": 3919,
+      "sha256": "c74d6c47d13edbec764754a8886b637c363eb575053ec013e6439627936b19a1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/7706d96797a598f35007.gdshader",
+      "bytes": 4113,
+      "sha256": "6f466534bf1d5bb7d8721b826554b0fa444b2099ae1d6af2a3a5d1e7d051cf8b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/79df1efc4213c3273633.gdshader",
+      "bytes": 4411,
+      "sha256": "d9b5c310cd8322893f8400cd809b316ed57a0547b076526765b349f80fc810c0"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/7a96b622bf5ff3df912b.gdshader",
+      "bytes": 4862,
+      "sha256": "847da66a99f9ff77650c4cf0d5f7b6095aa27eec53d6602eedff6b8e34795126"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/80080d7231ca3b58eadc.gdshader",
+      "bytes": 4278,
+      "sha256": "c9590440e7e6dc14110634205933b900082cd8bea30c01cccd88601fe682181f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/8d875793cbd29b02f909.gdshader",
+      "bytes": 3112,
+      "sha256": "182d001598f738d7c6ed956b15439fc99e068a879756e21510418cc6a87debc5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/8e40b7994c2a64b50b60.gdshader",
+      "bytes": 4533,
+      "sha256": "911463be1c04c9adf894b07390c899b7de69c41cb3da2e7af04864273ca9a7c6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/959c8b58e848b16208a4.gdshader",
+      "bytes": 2697,
+      "sha256": "b582b948edc88a92ee323dfa24a3de3d627252c21a068aa00dee6f6419f009d0"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/96976c011bbb120ba0ad.gdshader",
+      "bytes": 4057,
+      "sha256": "391831e332c9054a692db15a1305ea321b63774d7c3516aa2f0711cea68e92ae"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/b81ac71511ce4bcd3030.gdshader",
+      "bytes": 4635,
+      "sha256": "3cbf1ead46836a68940ad16059fb84ba91260536b3b50e7722c6e0e66c542abe"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/c99790d01991358f3c68.gdshader",
+      "bytes": 3686,
+      "sha256": "5075678ed3c3d2b73fba4ccb03bebe602c64938a6809f0f261dacc8da37aac6d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/cda84df1bcbb360617f7.gdshader",
+      "bytes": 2478,
+      "sha256": "1a8031a4e230fbe1528bd6da1c05a1279df0188be1e30d20d0b9bcb9a617a18d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/d0e30c6f0c66e7beef22.gdshader",
+      "bytes": 4113,
+      "sha256": "531d04749968c4a959c287b16569b77c0a41383df6a93291c84eef39ccd509d0"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/d2fbc65e67b67232af44.gdshader",
+      "bytes": 3954,
+      "sha256": "68e5d5609bdb333ba0bbdc94b0cf8d0e4a2552f2b027de6ad7af064e6cc8bd3a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/d4a7becbc28d68021099.gdshader",
+      "bytes": 4471,
+      "sha256": "fafa26343197386922a4c292715cfbaab8efa75d8f6eda5e4413c36146540229"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/d4a9a6a6d5d8f3b2e829.gdshader",
+      "bytes": 5052,
+      "sha256": "800b9ed154eb4017a08e51f4ce6ff6e809c5e9be58fe3f0913b3524ac3c91c72"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/da2ea6edcf8153d017f4.gdshader",
+      "bytes": 3686,
+      "sha256": "2d00deedfd3393a936a35ecff153d73346dd115582195e0f4a8f8b3d5465b0ce"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/e2d812491cad1be1b22f.gdshader",
+      "bytes": 5247,
+      "sha256": "4266c69c605c3644bfa1d1be24bbd5a029c3c23976a2378a990dc589824f706c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/e335cc18ab7ae73a0f4a.gdshader",
+      "bytes": 3584,
+      "sha256": "a9512b4def75722c13f118f996986117a839e594db61dc26f4a6592ce2c6cc65"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/e97e14235632a55d066a.gdshader",
+      "bytes": 3853,
+      "sha256": "3f6292d572e5294dab791e37de2b4e9eb8dd63df0453d5a7231eb59941750502"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/ef433477a05ed8b698c7.gdshader",
+      "bytes": 4975,
+      "sha256": "cf3eba31af78ef8675a534311b12575d4541f5d0408ddd0802700c2f570ce68f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/shaders/f49c3071b539cbe6040f.gdshader",
+      "bytes": 6719,
+      "sha256": "aec4f29b1c6c711a67611d9bf14ea851b314bab34c46e00345f6566f26b0d17a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/032ef3871489fa8c44b9.png",
+      "bytes": 148161,
+      "sha256": "228dd194ca4d6930040702a4233339d547b80cde49df64d948ea6daf6bf6e67f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/055fd3e7829a557f587f.png",
+      "bytes": 48254,
+      "sha256": "0e2b820804ec23dc47bc5f8461aa39bdf68a77de83b4f055bd5a370468a373f8"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/0c4d2a2ed8f03bd073bf.png",
+      "bytes": 33026,
+      "sha256": "4877931b758284d1d4268798f9c872af1947c3be481fe8e280912832d77f3878"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/0d83abf051579c4bce37.png",
+      "bytes": 1083,
+      "sha256": "b368ed1b7a28b431787d82e19958af716462da79df8e0c972fc6bbc220072a81"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/1106eed17e06ba8e64e9.png",
+      "bytes": 31457,
+      "sha256": "0c2eaaef68e4d23b979327a956f62abc4b4b6237a6cb7a2021741d4b7c6750e8"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/1241d68f1b75d9aa869a.png",
+      "bytes": 28897,
+      "sha256": "ec91c1fa6e79e7dc548a19be4f6b6c36a651773cf252b81d3702f88ae627b12e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/146ce9c8e45b3c1d9e1e.png",
+      "bytes": 32340,
+      "sha256": "258e63a93cfa7740cc654bfde8a5dab6b4da9f77878a85190afa2ed6fbc998c2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/15bcc6a63cf387fd541d.png",
+      "bytes": 48761,
+      "sha256": "302d3b34c305565747b45b851d7f0d00f045053f44cb0aee9895e9bc86b9e7d6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/189c501323d2f3bfc20a.png",
+      "bytes": 962915,
+      "sha256": "17dbf078e21c9bbc4fc8f084d16be7088d594b5894e0f0c26ebb14243d764da6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/1b7b26eb275d6eda5736.png",
+      "bytes": 6883,
+      "sha256": "f3408571e846618b8f9bbdfb8748ba41defde2b72cf638799eacccb3de13ddb5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/1e3dca522997c4849392.png",
+      "bytes": 7375,
+      "sha256": "c69be9371fd7f5826ba46d23ac68c5d90d71da421ae8fad3677604c2a331b517"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/1ecdc4d673871186a7aa.png",
+      "bytes": 181,
+      "sha256": "10ac492948521f143ef60e8ee58190a4ea80ff9e973345b4236226c24af6813d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/1ffff0b79c37b68e85b8.png",
+      "bytes": 64508,
+      "sha256": "9e34ed9e0ed26986f31e4e31ee42d68b1ccbe6b72f94496c015c1555f0ad63f4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/2315a3abef881dc16831.png",
+      "bytes": 351,
+      "sha256": "51e90ca34e7d31a6028456e83098c6a78e7d5ced3ab2ec8dd752a3c06cbc0b2a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/27f206cbacc0a8da97d3.png",
+      "bytes": 897110,
+      "sha256": "9b26491332f745583e2e0e88f690d976fcaa19458b3bf35ba798d8ce6886994a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/2d28385c1b390a54a00c.png",
+      "bytes": 18765,
+      "sha256": "6bc0fe18e2e75de20dbf3646a36e4a6de5d9c11f004216f63c8b5ca67df5d7e5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/2d2ceb20983e504fdfce.png",
+      "bytes": 90686,
+      "sha256": "602a683e876047e81184a4c600704bab3e13fa3ceca82238142f507429476f5c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/2e2bf92309c70ce802a3.png",
+      "bytes": 531,
+      "sha256": "c2f3b1c4e84bea279ca393f9ee1021f093960511487d8546477a3cbb576fe4e7"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/32a2d8214bf55c84939b.png",
+      "bytes": 77022,
+      "sha256": "a03665a272506f1ea5aacc586853043806d309303fc85f6b3109b9301ae03a33"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/331a8a15b07b9dff82a3.png",
+      "bytes": 14551,
+      "sha256": "2aa9886317173741796d911f527db8f4b15e20abe08277d22dda2d0580b8cddb"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/34c5693eae2b0a771b1b.png",
+      "bytes": 9015,
+      "sha256": "4c2e33c7fcbd5210ecfcd7cd50a480a1adfc5730e0322e72ed6b2f58f93760d1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/389606d436da38638fd1.png",
+      "bytes": 314617,
+      "sha256": "57a6454d80e2b6104aba6ea0fe07190f65c34949c3e7447cf5ec72de1b8706ba"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/398db509ed6b20c9b4e5.png",
+      "bytes": 7879,
+      "sha256": "f8931d0add0bf54a84feca234a65ea6fc566fe2aec7147381e76b3bc08c4c295"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/42c5b5b5eb033a0895f5.png",
+      "bytes": 139205,
+      "sha256": "4f37af909d5b70ac294b1ab2ded2d4c1559184a1792090c7e9c2e72bf9f48afa"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/4323c208074050be14cd.png",
+      "bytes": 30688,
+      "sha256": "4458c92c7eef7d700bbcd31ecc5a9f6d47cb2ffc46159f0d13334de8f296a97b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/4e0eb9de1d393c434539.png",
+      "bytes": 1357,
+      "sha256": "bfc40756ecd1b263745ba35edc118281c430f21092548c75432ca80e1d0fde6a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/50929d858c127e2e7e03.png",
+      "bytes": 103917,
+      "sha256": "99b9a634b985a0416434e49534b6234ad0f21fb839e81a2a15e5610951043e31"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/5203ebd3a19b2ae29b90.png",
+      "bytes": 71834,
+      "sha256": "3024e7c06966a5eadc9c7de510501ef27005c6dc7559cc094a9181562e7b39b0"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/56af09dfbde5fcc2a5b1.png",
+      "bytes": 251270,
+      "sha256": "1f67df36449450a97971cd98a9bae140ca1952d8cee555530f4689c12ff027df"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/590fa1ed92144b1e0859.png",
+      "bytes": 73450,
+      "sha256": "a6741f419a3cd914c38d93931dac5062d0b69a95923251a1bf81f0b72806133d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/5aa89e881867e6df9428.png",
+      "bytes": 6886,
+      "sha256": "ee1d1b4a9c1a7504cf6fcb9b27904d713501bfb354c1521b48d55c708250caf8"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/5c42f049e7942c6d457f.png",
+      "bytes": 32229,
+      "sha256": "12d6e855996a6f00481f8c0af010c7f766e8bfec76fd192bce112d371e4d71b7"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/5d23662b65178aa26bfd.png",
+      "bytes": 118,
+      "sha256": "747889dd4210371e99c54defeace7a890626c9e75f5921392caf6231a13947a4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/5de489d9d6b6dc3f4640.png",
+      "bytes": 118578,
+      "sha256": "635c196131731c633793f64b03e03a725642b0315cab0c348e1e420911f299cf"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/63db64f9cc017a9b1754.png",
+      "bytes": 181581,
+      "sha256": "5cc59c61fa4e68d8abb80e03770f4925839b2321bdbb3d5464a7319626bfe7f4"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/67f0b6dbe88aa57b653c.png",
+      "bytes": 8612,
+      "sha256": "55d120f5801347c5a7f264e5c4a6ebc36d543d9f6cce9ba61a29e3cd3db5242e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/6b61e7bbab71c6b83147.png",
+      "bytes": 231226,
+      "sha256": "5ea511db9be6fd75eb2552cee483bd12d6eed6565df70b19ce5a46821c87154d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/6cb25beff42f6cb62af3.png",
+      "bytes": 39602,
+      "sha256": "45e3788437fde72d52c8e3a1aa6c69ef844b973f6f422db547f35f897340593b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/6f036c37d10fd9ca9e37.png",
+      "bytes": 1838,
+      "sha256": "2f5c039f1e7744edb7c69127c746c763bf9e3cf888c5654f3b98c99c3f7b6862"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/70f767fa1f0cef684dcf.png",
+      "bytes": 72254,
+      "sha256": "50585ccea88f18d8dd5439a4742ed4c2cc16b1f176d8b392189e22d93d563b07"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/73e0883ffff685750bab.png",
+      "bytes": 282,
+      "sha256": "7b65c56f9d50ac15db55fb541a0a0ac00d0f74f55dea209c0822768c1c744e58"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/75641cf2daffea9598dc.png",
+      "bytes": 7108,
+      "sha256": "c9430f2c0441b5bb6dc25354cdbede998956a3958b9936ce2f64b60edb44a7c5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/7a703d79697228bb559e.png",
+      "bytes": 304,
+      "sha256": "2a09801def42a150e29f2942fc92753c27c65f92caed893ef791bd5d3fd9b315"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/7d1fd6c37db0dcc1ea99.png",
+      "bytes": 89628,
+      "sha256": "85c809b80bb7920b0947086f6db35ffc8502052c92a1457b8a9a63bd1181e0bc"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/7d87fd0e5281dcb8de9d.png",
+      "bytes": 1547,
+      "sha256": "f134859b568212683b6f50a1c694fa422915feeffe9ab01aa2217e6432755854"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/7eb39fd37f5840c2e631.png",
+      "bytes": 98207,
+      "sha256": "4c1cb150e4e2ee43b01b633dbba87fef463a292c6c4d5190c260ca55be500f0f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/7f6b78d8184045baa779.png",
+      "bytes": 72254,
+      "sha256": "50585ccea88f18d8dd5439a4742ed4c2cc16b1f176d8b392189e22d93d563b07"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/81180ee0412478336c02.png",
+      "bytes": 53075,
+      "sha256": "1b96e1bbd4a005cd08c922726b60d4616b2c857268a46b3fd936fab62c543bcc"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/83aad3769b521bb5db72.png",
+      "bytes": 45449,
+      "sha256": "b83e8637f877742d30e6a1ed52a114079ecba34234ecdcc27f6e77e323346c1f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/84017dc16cfbb9c87c49.png",
+      "bytes": 51240,
+      "sha256": "fa57e0bdb6423989e19db30e9433debd9d2670f12aab6d1e19e47959a6b8f204"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/849b623015fb47b0893f.png",
+      "bytes": 278,
+      "sha256": "194cce62edfa316234198ff38803c772b4be8334865eed1e5bc3acf5674ac3b5"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/8801f9478c1a1c1a4cd9.png",
+      "bytes": 24216,
+      "sha256": "f151778016dfc03f935df128f74cb2850016c19692cfb84bc1d88b2007fbafcc"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/88a80b38bd82e9e91d59.png",
+      "bytes": 181,
+      "sha256": "10ac492948521f143ef60e8ee58190a4ea80ff9e973345b4236226c24af6813d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/89b19b5380bbb4464a29.png",
+      "bytes": 2361,
+      "sha256": "5a890698d44f1f0dfb495449591267ffe113615a7005b29d847201c71ee0e175"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/8fbb18c24c886f100b38.png",
+      "bytes": 69688,
+      "sha256": "101b5ea190d2d3c9602918fd81131b5bb6bb91eea9c02aafa50476cd581d40f9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/8fd5e622c20e47c4c5eb.png",
+      "bytes": 14643,
+      "sha256": "683d83c31e4635bc5d2c61c7eff67ce5a5c4ef6451eaf3e9ac8ae6b8a2321c63"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/909019992c59f724ef32.png",
+      "bytes": 131735,
+      "sha256": "a33bf4263dfc5eb6debf2f29126009bde62e907611b50e620e9d3af072480650"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/9164b694af91128689b7.png",
+      "bytes": 5981,
+      "sha256": "9882deed0571e282c2d3001bc5bc9e1fccf205557f5c1c9955e0f1d38f913292"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/91bb7c248f81311e34b7.png",
+      "bytes": 4646,
+      "sha256": "542b125d5687bd38cc54d8ff4992ea8a389b377c1350ef3e3d37b9c874a0c2e6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/962b1ba014cb633fc01b.png",
+      "bytes": 10241,
+      "sha256": "ad05bbeadbb8daf686259aeacfe7711b3fe9d2c01e76366c68b414f3a81b27fa"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/96fc98fa7579d3fc2a1f.png",
+      "bytes": 86106,
+      "sha256": "d9bef2ba4a5127bc09383ea64b8994af2c4b28713cce51a4048deaf612213953"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/9758904ef88206a19bfd.png",
+      "bytes": 17666,
+      "sha256": "c89df2de09c87c350c10e3f432b620e97f988ffd9a84dd2b7fadfbe531adae49"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/97b668f31f7336d127db.png",
+      "bytes": 24286,
+      "sha256": "80d23be98d2ebbd46eb58420f58a94a2e20273e920fea91f8519b6f52e914b11"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/97f59bf1d2030f9a0774.png",
+      "bytes": 13990,
+      "sha256": "dd0902ab7de962ac0d0d78c79ceee5e4394b45b81ba516d61b5266b46c6d1689"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/a3099e14e61cc399df77.png",
+      "bytes": 574,
+      "sha256": "beb81c261eab1f3e6e4c0504a73f272e577d3b2a1fa3c85caf75f90c73eb37b7"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/a48d3d161a63de164a59.png",
+      "bytes": 85820,
+      "sha256": "4ce8c2cb9281f4188650e68b58137ccc4f89b591b075344da1d4ac1becb09eb2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/a653f469a7e31cb75f63.png",
+      "bytes": 16237,
+      "sha256": "bdbfcb9c6ce5defee368c03b96a5459a22fa5cd3a55d03112ac58bff99fe357d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/a85c8348a4c388bdd13a.png",
+      "bytes": 19873,
+      "sha256": "22d28209306e4b8ad56b16f7c6d696398e69ae485fe402f7e22229a581e2e235"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/a8d5ce14257a172efbb5.png",
+      "bytes": 17268,
+      "sha256": "649e4238e1670d0ac17046106675d6e859ca107e4ec0dce75db5f53ef829549e"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/aa968e7baee83f725714.png",
+      "bytes": 27028,
+      "sha256": "ba888d37380c3bcdee176535f9fd208fe9445a77f3ef8a019d1d09f377d84ec2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/ab812e2840acb67eb812.png",
+      "bytes": 3159,
+      "sha256": "d8df9dbf5230916839d196d331e7c199d5d2a531f5c6f32eefa97b36dc80d7e2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/abcdb8947a0e43dfa489.png",
+      "bytes": 20934,
+      "sha256": "a9a0ba639c581dbc77bd01f036c5a5dcd21d5018a0ee411e3dd85adda631cbcb"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/ad9188e9c38cac7c3b93.png",
+      "bytes": 1469,
+      "sha256": "780e511f13296e12b0b89f301bf5a4508a64602f5a3e2a046a9c54dd6600723d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/b0c573182c51bf639af3.png",
+      "bytes": 25513,
+      "sha256": "c856d04c5abb31abcc8090fee9b89e9567dbd793dba42fb21ced37c69e9d0aca"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/b273b41bfe38574c4e50.png",
+      "bytes": 113776,
+      "sha256": "b7dbe61966bd82a05223fba735eefafd7201fadbc2617c01ce421656417777de"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/b36fd408381b642ee527.png",
+      "bytes": 13283,
+      "sha256": "89cc69477f2089b42b20ae2571ccaa4ff0fd8f88e4d32e8f987180bc7687832a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/b4e6bb41b43ae8a256d1.png",
+      "bytes": 5945,
+      "sha256": "0756212f061b63cd5d35086d6ec54bbf28a42d0c4ed840bdd70350ddc6bb0751"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/b55792a28533d5de2787.png",
+      "bytes": 13280,
+      "sha256": "0d03418cdf0f968b9fec95b3fd0c0024d4e226cfced68e6d2a99ecd63568f96d"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/b722e72dfb6ceb069793.png",
+      "bytes": 46845,
+      "sha256": "9dfb0000f8ca1a55409141f6825ada07ab01569da392508e235100c9dc302f3c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/b82058e6a4d3a468b24a.png",
+      "bytes": 166450,
+      "sha256": "32e3d9e428b71bf5e1112fa10c329f39bca60c9331ebd40d3cf6efea2f5ae75c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/bf839480108f23667dcc.png",
+      "bytes": 14244,
+      "sha256": "26ef006c26044acbe09ab235dc9bc733ddab8aff38164fa5bd60fe029df06bc1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/c8ec0aff3553454e9c10.png",
+      "bytes": 277242,
+      "sha256": "17fde4881ec7559f0cb994d0836b47b4499ab92e7f27441ae47b9a6be501fa33"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/ccdc5d3039aaab11ec0d.png",
+      "bytes": 82377,
+      "sha256": "8d7e5c92b28ac14cb27b5fca598353c7cf2129ae9ef769915ede0730c6888cec"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/ce744f9c583a59732f90.png",
+      "bytes": 2024894,
+      "sha256": "040de25ec3c9c822b7275c57dc8b3e569e22de1c78e4c8e09eef39d088ece497"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/d489b69e22ab1886f0ce.png",
+      "bytes": 6671,
+      "sha256": "ae4a56afd7344798d03973b8dd7cf1075bee4ef4a6318999a1b956a36eb53af1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/d4ed308a0887729a48de.png",
+      "bytes": 1260,
+      "sha256": "0c28ee923e024fd36bd0836aad29abc7568ec2c529d74109eed9a4bbe33cbce6"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/d666a0a5ac69c190e43c.png",
+      "bytes": 59305,
+      "sha256": "35901ca6e66390279136957228b7fa5961b034bdad26c695c448f1862697d9f3"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/d9bb47ab79aeb0d15541.png",
+      "bytes": 59699,
+      "sha256": "1fea86ae1ff1511ff3483e5f157959819dbc890c86e3e47d789fa331b48b22d9"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/df46427f287df8aa2e4d.png",
+      "bytes": 53833,
+      "sha256": "19b30bdc503e608306964a32b033440c87cbbd97693e9f56e892315b250c847b"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/e2df4decadf129c60271.png",
+      "bytes": 20367,
+      "sha256": "833323901ae847de0ef84b6bb7b96bea670b41b84e2a24b88a1fdbd921a0a00f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/e60dcbddd4160200b181.png",
+      "bytes": 82377,
+      "sha256": "8d7e5c92b28ac14cb27b5fca598353c7cf2129ae9ef769915ede0730c6888cec"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/e91d947d5f4e2bdd6941.png",
+      "bytes": 263,
+      "sha256": "d9bc7fca85daeb92a894bc0c44f39bb74287373b78f043672b9f9e5176e9581f"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/ea67acab5b3aa29097a3.png",
+      "bytes": 15053,
+      "sha256": "543d4e0c0b654e2bb99790961921644ddef5d7fe6c214a10fcd001f83f5ef9e7"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/ea75b7f5fd91017737c0.png",
+      "bytes": 11568,
+      "sha256": "18b765231fdfaf88ab7a0b49484f0349b18b30a52a94b7b2ca9088e34dd0d2b2"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/f0a7748110645dedf27e.png",
+      "bytes": 43767,
+      "sha256": "516c501654c1a90f4324a4ea6708a84c77506db2b61c4795743424f76961f2d1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/f53f801c1cf2add73e1c.png",
+      "bytes": 23317,
+      "sha256": "47cd1dbd27c364d19069c5b4b9b46e5b6fac2c5795147ca0b57ba37f99f9fb7a"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/fa0fa6c170a69dcb039a.png",
+      "bytes": 9396,
+      "sha256": "d3f668b9c5f72c6519bd0600f8d0314eeca29868ecab00b110bec4498aafee07"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/fb11bcd6642e8e2b6ab1.png",
+      "bytes": 15933,
+      "sha256": "cbe243de8d2e81aa6c9b5a6d776234f6d307eb0f9b5b1eaa274fed0f2684febf"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/assets/fx/unique/textures/fba78fb264b4f97cd2e6.png",
+      "bytes": 60898,
+      "sha256": "49c7e7658c9976d1edefc9a6649a42430a072ec3713fad5c8e3b9f1d713d51bf"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/combat_voice.json",
+      "bytes": 7904,
+      "sha256": "b2a2e4c1e4eda3c03eec11db360b8aa211c9893258635d1f39e534fad11efd0c"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/followup_anchors.json",
+      "bytes": 220412,
+      "sha256": "71fdee8e7e5777f6524d27b9c5fa57add0af3900f689e7aefcf400165e452814"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/full_tempo_sfx.json",
+      "bytes": 1575,
+      "sha256": "9f6b9bbab202552cb36639b5b32a9e4f505a68e493d3e92a6ab0194f91b7cd37"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/material_dd.gdshader",
+      "bytes": 3683,
+      "sha256": "713f67c5dac83ea1e6816108485486ac4769adf94bc5e6f2a78ffeaa27f42b33"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/material_fx01.gdshader",
+      "bytes": 2659,
+      "sha256": "3ecf71ce919335626ac59f092cad8274f581de7535a1044a5441ce966cb7b6d1"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/material_mask.gdshader",
+      "bytes": 931,
+      "sha256": "9b24c14260683778f691f10f15f32090d816a9857ef4510f2e64c8d7410a6984"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/sfx_catalog.json",
+      "bytes": 4353,
+      "sha256": "1985def322585a20e92627e4bceff45834a6cfa6f7b1baa824f2b3bbd2f741c8"
+    },
+    {
+      "path": "AKnight_Hcxmmx/Runtime/unique_sentences.json",
+      "bytes": 373,
+      "sha256": "5c35aa1cab470302abbf8d0f48861956d83beba9330b7373dbef56becb9f329b"
+    },
+    {
+      "path": "images/packed/character_select/char_select_ironclad.png",
+      "bytes": 56081,
+      "sha256": "3c16644fcd0a06b261f35c197b14991509c297a13b460fbd87a0affb9d90cf75"
+    },
+    {
+      "path": "images/packed/character_select/char_select_ironclad_locked.png",
+      "bytes": 28300,
+      "sha256": "c5f13aa40c157541a98122b1920419077a9873c87464f25e1ceece4dc4b16aa3"
+    },
+    {
+      "path": "images/packed/map/icons/map_marker_ironclad.png",
+      "bytes": 4845,
+      "sha256": "2a015f0d46bdcce41132149a1be7d0176a48714fe34d80820e0d08b1e9a0d169"
+    },
+    {
+      "path": "images/ui/top_panel/character_icon_ironclad.png",
+      "bytes": 13276,
+      "sha256": "824f0bdaf54f43992d981407f157663d3481d6134ccf152b32e6a34858b5c3de"
+    },
+    {
+      "path": "images/ui/top_panel/character_icon_ironclad_outline.png",
+      "bytes": 1666,
+      "sha256": "c14b398800bf83f03b1d18491e0194d68b80a7222c73efb5fce7b6614179caea"
+    }
+  ]
+}

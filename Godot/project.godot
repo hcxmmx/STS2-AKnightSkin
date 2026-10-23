@@ -1,0 +1,9 @@
+config_version=5
+
+[application]
+config/name="AKnightSkin Build"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="AKnightSkinDevelopment"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"

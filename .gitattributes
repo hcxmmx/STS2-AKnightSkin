@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.cs text
+*.gd text
+*.gdshader text
+*.gdshaderinc text
+*.tscn text
+*.json text
+*.md text
+*.ps1 text
