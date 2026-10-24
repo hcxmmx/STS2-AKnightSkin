@@ -39,7 +39,7 @@ public static class Entry
             }
         }
         _initialized = true;
-        GD.Print("[AKnightSkin] Initialized v0.5.12; IRONCLAD combat visuals/audio; F8 full/rhythm; ultimate=PACTS_END; rest/merchant idle.");
+        GD.Print("[AKnightSkin] Initialized v0.5.13; IRONCLAD combat visuals/audio; F8 full/rhythm; ultimate=PACTS_END; rest/merchant idle; SkinChanger target declaration.");
     }
 
     private static void OnCombatWon(CombatRoom room)
@@ -52,10 +52,13 @@ public static class Entry
 
 internal static class Visuals
 {
+    // Skin Changer scans this declaration without running our initializer.
+    // Keep the runtime predicate and the managed skin's ownership identical.
+    internal const string TargetCharacterId = "IRONCLAD";
     internal const string NodeName = "AKnightSkin";
     internal static readonly HashSet<ulong> Active = new();
     private static PackedScene? _battle;
-    internal static bool IsTarget(CharacterModel? model) => model?.Id.Entry.Equals("IRONCLAD", StringComparison.OrdinalIgnoreCase) == true;
+    internal static bool IsTarget(CharacterModel? model) => model?.Id.Entry.Equals(TargetCharacterId, StringComparison.OrdinalIgnoreCase) == true;
     internal static Node2D? Skin(NCreature creature) => IsTarget(creature.Entity?.Player?.Character) ? creature.Visuals?.GetNodeOrNull<Node2D>(NodeName) : null;
 
     internal static void Attach(NCreature creature)
