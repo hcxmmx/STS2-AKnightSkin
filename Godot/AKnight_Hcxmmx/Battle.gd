@@ -17,6 +17,7 @@ var sound
 var glow
 var overlay_host: Control
 var overlay_anchor: Node2D
+var refraction_copy: BackBufferCopy
 var refraction: ColorRect
 var original_body: Node2D
 var original_visible:=true
@@ -76,6 +77,11 @@ func _ready():
 	glow=Glow.new();add_child(glow);glow.initialize(overlay_host)
 	for i in 3:
 		var extra=Glow.new();add_child(extra);extra.initialize(overlay_host);extra.overlay.z_index=1;extra.sync(null,false);rhythm_glows.append(extra)
+	# Waterfall and other native screen-reading scenery can fill the shared
+	# screen texture before creatures are drawn. Snapshot this pass's actual
+	# input immediately before refraction, and only while it is active.
+	refraction_copy=BackBufferCopy.new();refraction_copy.copy_mode=BackBufferCopy.COPY_MODE_VIEWPORT
+	refraction_copy.z_index=-1;overlay_host.add_child(refraction_copy);refraction_copy.visible=false
 	refraction=ColorRect.new();refraction.mouse_filter=Control.MOUSE_FILTER_IGNORE
 	var sm:=ShaderMaterial.new();sm.shader=load("res://AKnight_Hcxmmx/Runtime/combat_refraction.gdshader");refraction.material=sm
 	refraction.z_index=-1;overlay_host.add_child(refraction);refraction.visible=false
@@ -115,7 +121,7 @@ func configure(body: Node2D,bounds_position: Vector2,bounds_size: Vector2,audibl
 	configured=true;RenderingServer.frame_pre_draw.connect(_hide_original);_hide_original()
 	var native_front=_native_front()
 	if native_front!=null:
-		overlay_anchor.reparent(native_front,false);glow.overlay.z_index=1;refraction.z_index=0
+		overlay_anchor.reparent(native_front,false);glow.overlay.z_index=1;refraction.z_index=0;refraction_copy.z_index=0
 	# Prepare once at encounter setup, rather than synchronously on the first card.
 	var warmup=get_tree().get_first_node_in_group("aknight_combat_warmup")
 	var ultimate_host=native_front if native_front!=null else self
@@ -183,6 +189,7 @@ func _sync_overlay():
 		weights[i+1]=1.0 if active and player.field_viewport.render_target_update_mode!=SubViewport.UPDATE_DISABLED else 0.0
 	refraction.material.set_shader_parameter("active_fields",weights)
 	refraction.visible=weights!=Vector4.ZERO
+	refraction_copy.visible=refraction.visible
 
 func _native_front() -> Node:
 	var ancestor: Node=get_parent()
@@ -380,7 +387,7 @@ func _process(delta: float):
 	stage.tick_rhythm(delta)
 	_hide_original();_update_mapping();_refresh_overlay()
 	if ultimate!=null and ultimate.active:
-		glow.sync(null,false);refraction.visible=false
+		glow.sync(null,false);refraction.visible=false;refraction_copy.visible=false
 		for extra in rhythm_glows:extra.sync(null,false)
 		ultimate.tick(delta);sound.tick(previous,time,delta)
 		_tick_feathers()
