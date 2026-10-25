@@ -48,7 +48,7 @@ internal static class CardPerformancePatch
 internal static class ActualAttackTargetsPatch
 {
     private static System.Reflection.MethodBase TargetMethod() => typeof(MegaCrit.Sts2.Core.Commands.CreatureCmd).GetMethods().Single(method =>
-        method.Name == "Damage" && method.GetParameters() is var args && args.Length == 7 &&
+        method.Name == "Damage" && method.GetParameters() is var args && args.Length is 6 or 7 &&
         args[1].ParameterType == typeof(IEnumerable<Creature>) && args[2].ParameterType == typeof(decimal));
 
     private static void Prefix(IEnumerable<Creature>? targets, MegaCrit.Sts2.Core.ValueProps.ValueProp props, Creature? dealer, MegaCrit.Sts2.Core.Models.CardModel? cardSource)

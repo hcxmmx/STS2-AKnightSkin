@@ -1,4 +1,5 @@
 using System.Runtime.CompilerServices;
+using System.Reflection;
 using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -16,6 +17,8 @@ internal static class FeatherFeedback
     private static long _next;
     private static readonly ConditionalWeakTable<CardPlay, Ticket> Plays = new();
     private static readonly ConditionalWeakTable<CardModel, Ticket> Series = new();
+    private static readonly PropertyInfo? CommandCardPlay = typeof(AttackCommand).GetProperty("CardPlay");
+    private static readonly ConditionalWeakTable<CardModel, List<CardPlay>> ActivePlays = new();
     internal static long Begin(CardPlay play, Node skin)
     {
         Ticket? ticket;
@@ -26,6 +29,14 @@ internal static class FeatherFeedback
         }
         else if (!Series.TryGetValue(play.Card, out ticket)) return 0;
         Plays.Remove(play); Plays.Add(play, ticket);
+        // Public v0.107.1 carries the source card but not CardPlay on attacks.
+        // Track only the native Before/AfterCardPlayed lifetime in that host;
+        // beta keeps its exact per-command CardPlay association.
+        if (CommandCardPlay == null)
+        {
+            var active = ActivePlays.GetOrCreateValue(play.Card);
+            active.Remove(play); active.Add(play);
+        }
         return ticket.Id;
     }
     private static Node? Skin(Ticket ticket) => GodotObject.InstanceFromId(ticket.Skin) is Node node && GodotObject.IsInstanceValid(node) && node.IsInsideTree() ? node : null;
@@ -34,8 +45,10 @@ internal static class FeatherFeedback
     // result alone also includes resurrection, so require actual enemy removal.
     internal static void Observe(ICombatState combatState, AttackCommand command)
     {
-        if (command.CardPlay is not { } play || !Plays.TryGetValue(play, out var ticket) || ticket.Fired ||
-            command.Attacker != play.Player.Creature || !Visuals.IsTarget(play.Player.Character)) return;
+        var play = CommandCardPlay != null ? CommandCardPlay.GetValue(command) as CardPlay :
+            command.ModelSource is CardModel source && ActivePlays.TryGetValue(source, out var active) ? active.LastOrDefault() : null;
+        if (play == null || !Plays.TryGetValue(play, out var ticket) || ticket.Fired ||
+            command.Attacker != play.Card.Owner.Creature || !Visuals.IsTarget(play.Card.Owner.Character)) return;
         if (!command.Results.SelectMany(row => row).Any(result => ConfirmedKill(result, command.Attacker, combatState.Enemies))) return;
         if (Skin(ticket) is not { } skin) return;
         ticket.Fired = true; skin.Call("feather_kill", ticket.Id);
@@ -44,6 +57,11 @@ internal static class FeatherFeedback
         result.WasTargetKilled && result.Receiver.IsDead && result.Receiver.Side != attacker.Side && !enemies.Contains(result.Receiver);
     internal static void Finish(CardPlay play)
     {
+        if (CommandCardPlay == null && ActivePlays.TryGetValue(play.Card, out var active))
+        {
+            active.Remove(play);
+            if (active.Count == 0) ActivePlays.Remove(play.Card);
+        }
         if (!play.IsLastInSeries || !Plays.TryGetValue(play, out var ticket)) return;
         Skin(ticket)?.Call("feather_finished", ticket.Id);
     }

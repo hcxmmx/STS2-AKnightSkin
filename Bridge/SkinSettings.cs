@@ -72,8 +72,11 @@ internal static class ModSettingsButtonPatch
     private static void Postfix(NModInfoContainer __instance, Mod mod) => SkinSettings.Fill(__instance, mod);
 }
 
-[HarmonyPatch(typeof(NModInfoContainer), nameof(NModInfoContainer.Clear))]
+[HarmonyPatch(typeof(NModInfoContainer), "Clear")]
 internal static class ModSettingsClearPatch
 {
+    // Public v0.107.1 has no Clear method. Fill already hides our button when
+    // another mod is selected; keep beta's extra cleanup only where available.
+    private static bool Prepare() => AccessTools.DeclaredMethod(typeof(NModInfoContainer), "Clear") != null;
     private static void Postfix(NModInfoContainer __instance) => SkinSettings.Clear(__instance);
 }
