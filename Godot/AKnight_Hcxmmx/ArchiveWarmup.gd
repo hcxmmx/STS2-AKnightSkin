@@ -80,7 +80,7 @@ func _prepare(ticket: int):
 	for row in cover.voice.catalog.values():
 		if not await _idle(ticket):return
 		var path: String=row.audio.file
-		if not cover.voice.streams.has(path):cover.voice.streams[path]=AudioStreamWAV.load_from_file(path)
+		if not cover.voice.streams.has(path):cover.voice.streams[path]=AudioStreamWAV.load_from_file(path, {})
 		await get_tree().process_frame
 		if not _valid(ticket):return
 	if not await _idle(ticket):return

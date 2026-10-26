@@ -31,15 +31,15 @@ func prepare(progressive:=false):
 		var clips: Array=[record.audio]+record.combat_audio
 		for clip in clips:
 			if not streams.has(clip.file):
-				streams[clip.file]=AudioStreamWAV.load_from_file(clip.file)
+				streams[clip.file]=AudioStreamWAV.load_from_file(clip.file, {})
 				if progressive:await get_tree().process_frame
 	for clip in unique_clips:
 		if not streams.has(clip.file):
-			streams[clip.file]=AudioStreamWAV.load_from_file(clip.file)
+			streams[clip.file]=AudioStreamWAV.load_from_file(clip.file, {})
 			if progressive:await get_tree().process_frame
 	for id in sfx.catalog.clips:
 		if not sfx.streams.has(id):
-			sfx.streams[id]=AudioStreamWAV.load_from_file(sfx.catalog.clips[id].file)
+			sfx.streams[id]=AudioStreamWAV.load_from_file(sfx.catalog.clips[id].file, {})
 			if progressive:await get_tree().process_frame
 
 func speak(ids: Array, priority:=false, hit:=false, selection:=false):
@@ -52,7 +52,7 @@ func speak(ids: Array, priority:=false, hit:=false, selection:=false):
 	if not selection:voice_cooldown=voice_interval
 
 func _play_clip(clip: Dictionary):
-	if not streams.has(clip.file):streams[clip.file]=AudioStreamWAV.load_from_file(clip.file)
+	if not streams.has(clip.file):streams[clip.file]=AudioStreamWAV.load_from_file(clip.file, {})
 	voice.stop();voice.stream=streams[clip.file];voice.play()
 
 func speak_ultimate_line(index: int):

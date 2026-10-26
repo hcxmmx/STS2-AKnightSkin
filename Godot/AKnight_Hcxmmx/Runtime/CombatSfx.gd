@@ -31,7 +31,7 @@ func configure(page: int, action: String, cycle: int):
 
 func _add(id: String, at: float):
 	var clip: Dictionary=catalog.clips[id]
-	if not streams.has(id):streams[id]=AudioStreamWAV.load_from_file(clip.file)
+	if not streams.has(id):streams[id]=AudioStreamWAV.load_from_file(clip.file, {})
 	cues.append({"id":id,"start":at,"end":at+float(clip.duration)})
 	duration=maxf(duration,at+float(clip.duration))
 
