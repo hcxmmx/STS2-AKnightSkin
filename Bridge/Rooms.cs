@@ -1,8 +1,13 @@
 using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Entities.Players;
+using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Nodes.Combat;
+using MegaCrit.Sts2.Core.Nodes.Events.Custom;
 using MegaCrit.Sts2.Core.Nodes.RestSite;
 using MegaCrit.Sts2.Core.Nodes.Rooms;
+using System.Reflection;
+using System.Reflection.Emit;
 
 namespace Hcxmmx.AKnightSkin;
 
@@ -45,6 +50,48 @@ internal static class IdleRooms
             if (Visuals.IsTarget(character.Player?.Character)) Attach(character, "rest");
         }
         catch (Exception ex) { GD.PushWarning("[AKnightSkin] Rest idle: " + ex.Message); }
+    }
+
+    internal static void FakeMerchant(NCreatureVisuals visuals)
+    {
+        try
+        {
+            if (!GodotObject.IsInstanceValid(visuals) || !visuals.IsInsideTree()) return;
+            for (Node? parent = visuals.GetParent(); parent != null; parent = parent.GetParent())
+                if (parent is NFakeMerchant) { Attach(visuals, "fake_merchant"); return; }
+        }
+        catch (Exception ex) { GD.PushWarning("[AKnightSkin] Fake merchant idle: " + ex.Message); }
+    }
+}
+
+// Only observe the visuals created by this event. Keep the CharacterModel next
+// to its own result instead of guessing ownership from reordered scene children.
+[HarmonyPatch(typeof(NFakeMerchant), "AfterRoomIsLoaded")]
+internal static class FakeMerchantIdlePatch
+{
+    private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+    {
+        var create = AccessTools.Method(typeof(CharacterModel), nameof(CharacterModel.CreateVisuals));
+        var observe = AccessTools.Method(typeof(FakeMerchantIdlePatch), nameof(CreateVisuals));
+        foreach (var instruction in instructions)
+        {
+            if (instruction.Calls(create))
+            {
+                instruction.opcode = OpCodes.Call;
+                instruction.operand = observe;
+            }
+            yield return instruction;
+        }
+    }
+
+    private static NCreatureVisuals CreateVisuals(CharacterModel model)
+    {
+        var visuals = model.CreateVisuals();
+        // Native parenting, relaxed_loop setup and its RNG calls finish first.
+        // The deferred callback only adds the existing cosmetic idle overlay.
+        if (Visuals.IsTarget(model) && GodotObject.IsInstanceValid(visuals))
+            Callable.From(() => IdleRooms.FakeMerchant(visuals)).CallDeferred();
+        return visuals;
     }
 }
 

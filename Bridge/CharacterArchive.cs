@@ -1,3 +1,5 @@
+using System.Reflection;
+using MegaCrit.Sts2.Core.Localization;
 using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Helpers;
@@ -9,6 +11,9 @@ internal static class CharacterArchive
 {
     private const string NodeName = "AKnightArchive";
     private static PackedScene? _portrait;
+    private static readonly MethodInfo AscensionTitle = AccessTools.Method(typeof(AscensionHelper), nameof(AscensionHelper.GetTitle));
+    private static readonly MethodInfo AscensionDescription = AccessTools.Method(typeof(AscensionHelper), nameof(AscensionHelper.GetDescription));
+    private static readonly FieldInfo? AscensionGameMode = AccessTools.Field(typeof(NAscensionPanel), "_gameMode");
     private static readonly HashSet<ulong> SoundNodes = new();
     internal static void Select(NCharacterSelectScreen screen, CharacterModel model)
     {
@@ -82,9 +87,16 @@ internal static class CharacterArchive
         return new Godot.Collections.Dictionary
         {
             ["level"] = panel.Ascension, ["max_level"] = max, ["editable"] = editable,
-            ["title"] = PlainText(AscensionHelper.GetTitle(panel.Ascension).GetFormattedText()),
-            ["description"] = PlainText(AscensionHelper.GetDescription(panel.Ascension).GetFormattedText())
+            ["title"] = ReadAscensionText(AscensionTitle, panel),
+            ["description"] = ReadAscensionText(AscensionDescription, panel)
         };
+    }
+
+    private static string ReadAscensionText(MethodInfo method, NAscensionPanel panel)
+    {
+        object?[] arguments = method.GetParameters().Length == 1
+            ? [panel.Ascension] : [panel.Ascension, AscensionGameMode!.GetValue(panel)];
+        return PlainText(((LocString)method.Invoke(null, arguments)!).GetFormattedText());
     }
 
     private static void WireCoverControls(NCharacterSelectScreen screen, Control host, Control cover)
@@ -143,9 +155,9 @@ internal static class CharacterArchive
 internal static class CharacterSelectPatch
 {
     private static void Prefix(NCharacterSelectScreen __instance) => CharacterArchive.CloseSelect(__instance);
-    private static void Postfix(NCharacterSelectScreen __instance, NCharacterSelectButton charSelectButton, CharacterModel characterModel)
+    private static void Postfix(NCharacterSelectScreen __instance, NCharacterSelectButton charSelectButton, object[] __args)
     {
-        if (!charSelectButton.IsLocked && !charSelectButton.IsRandom) CharacterArchive.Select(__instance,characterModel);
+        if (!charSelectButton.IsLocked && !charSelectButton.IsRandom) CharacterArchive.Select(__instance, __args.OfType<CharacterModel>().FirstOrDefault() ?? charSelectButton.Character);
     }
 }
 [HarmonyPatch(typeof(NCharacterSelectScreen), nameof(NCharacterSelectScreen.OnSubmenuClosed))]

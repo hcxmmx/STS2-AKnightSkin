@@ -104,6 +104,8 @@ func _heading(host:Node,title:String,description:String)->void:
 func _build_performance(host:Node)->void:
 	_heading(host,"战斗演出","选择普通动作与大招的演出方式，卡牌结算照常。")
 	_choice(host,"普通动作","mode",["节奏模式","完整演出"],["rhythm","full"])
+	_toggle(host,"普通战斗特效（默认开启）","combat_effects")
+	var fx_hint:=_label(host,"关闭可减少性能开销，保留人物动作与声音。大招由下方开关独立控制。",18,MUTED);fx_hint.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART
 	_toggle(host,"启用绑定卡牌的大招演出","ultimate_enabled")
 	_choice(host,"大招演出","ultimate_mode",["跟随普通动作模式","节奏模式 · 两段交替","完整演出"],["follow","rhythm","full"])
 	_slider(host,"特效亮度","brightness",.2,2.,.05,true)
@@ -168,6 +170,7 @@ func _apply() -> void:
 	get_tree().call_group("aknight_battles","reload_settings")
 	get_tree().call_group("aknight_archive_portraits","reload_settings")
 	get_tree().call_group("aknight_archive_voices","reload_settings")
+	get_tree().call_group("aknight_combat_warmup","request")
 	_dependencies()
 
 func _save(key:String,value)->void:

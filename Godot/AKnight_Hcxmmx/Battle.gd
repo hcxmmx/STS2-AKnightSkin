@@ -63,6 +63,7 @@ var feather_serial:=0
 var feather_ticket:=0
 var feather_records: Dictionary={}
 var feather_bursts: Array=[]
+var effects_prepared:=false
 
 func _ready():
 	add_to_group("aknight_battles")
@@ -93,6 +94,14 @@ func _ultimate_settings():
 
 func reload_settings():
 	preferences=Settings.read()
+	var previous_effects:bool=stage.effects_on
+	stage.set_effects_enabled(bool(preferences.combat_effects))
+	if previous_effects!=stage.effects_on:
+		tail.clear();stage.rhythm_records=[{},{},{}]
+		if not stage.effects_on:
+			feather_records.clear()
+			for burst in feather_bursts:burst.stop()
+		elif configured:_prepare_effects()
 	if configured and presentation_mode!=preferences.mode:set_presentation_mode(preferences.mode,false)
 	else:presentation_mode=preferences.mode
 	glow_amount=float(preferences.glow_strength)
@@ -105,6 +114,7 @@ func reload_settings():
 	if not sound.voice_enabled:sound.voice.stop();sound.selection_voice=false
 	if not sound.sfx.enabled:sound.sfx.stop()
 	_ultimate_settings()
+	if configured and preferences.ultimate_enabled:_ensure_ultimate()
 	if configured and not preferences.ultimate_enabled and bound_card_active:
 		if is_instance_valid(ultimate):ultimate.cancel()
 		sound.stop();_start("idle")
@@ -123,13 +133,25 @@ func configure(body: Node2D,bounds_position: Vector2,bounds_size: Vector2,audibl
 	if native_front!=null:
 		overlay_anchor.reparent(native_front,false);glow.overlay.z_index=1;refraction.z_index=0;refraction_copy.z_index=0
 	# Prepare once at encounter setup, rather than synchronously on the first card.
+	if preferences.ultimate_enabled:_ensure_ultimate()
+	if stage.effects_on:_prepare_effects()
+	sound.prepare()
+	_update_mapping();_start("entry");entry_started=true
+	if local_voice:sound.speak(["1300720"],true)
+	return true
+
+func _ensure_ultimate():
+	if is_instance_valid(ultimate):return
+	var native_front=_native_front()
+	var host=native_front if native_front!=null else self
 	var warmup=get_tree().get_first_node_in_group("aknight_combat_warmup")
-	var ultimate_host=native_front if native_front!=null else self
-	if warmup!=null:ultimate=warmup.take(ultimate_host)
+	if warmup!=null:ultimate=warmup.take(host)
 	if ultimate==null:
-		ultimate=load("res://AKnight_Hcxmmx/Ultimate.gd").new()
-		ultimate_host.add_child(ultimate)
+		ultimate=load("res://AKnight_Hcxmmx/Ultimate.gd").new();host.add_child(ultimate)
 	_ultimate_settings()
+
+func _prepare_effects():
+	if effects_prepared:return
 	for variant in ["normal","unique"]:_new_feather(variant)
 	for player in [stage.entry,stage.ready_fx,stage.skill1_fx,stage.skill2_fx,stage.unique_fx]:glow.prepare(player)
 	for i in 3:
@@ -139,12 +161,10 @@ func configure(body: Node2D,bounds_position: Vector2,bounds_size: Vector2,audibl
 	stage.skill2_fx.prepare_frames([0.0,.2,1.05,1.25,1.85])
 	stage.unique_fx.prepare_frames([2.65])
 	stage.entry.prepare_frames([0.0]);stage.ready_fx.prepare_frames([0.0])
-	sound.prepare()
-	_update_mapping();_start("entry");entry_started=true
-	if local_voice:sound.speak(["1300720"],true)
-	return true
+	effects_prepared=true
 
 func _refresh_overlay():
+	if not stage.effects_on:return
 	var size_value=get_viewport_rect().size
 	if overlay_anchor.get_parent() is CanvasItem:overlay_anchor.global_transform=get_viewport().get_canvas_transform().affine_inverse()
 	overlay_host.position=Vector2.ZERO;overlay_host.size=size_value
@@ -176,6 +196,11 @@ func _unhandled_key_input(event: InputEvent):
 		get_viewport().set_input_as_handled()
 
 func _sync_overlay():
+	if not stage.effects_on:
+		glow.sync(null,false)
+		for extra in rhythm_glows:extra.sync(null,false)
+		refraction.visible=false;refraction_copy.visible=false
+		return
 	var primary=stage.active_fx
 	glow.strength=glow_amount*stage.primary_fade;glow.sync(primary,primary!=null and primary.visible)
 	var weights=Vector4.ZERO
@@ -438,6 +463,7 @@ func _new_feather(variant: String):
 	return burst
 
 func bind_feather(ticket: int=0):
+	if not stage.effects_on:return
 	feather_serial=maxi(feather_serial+1,ticket);feather_ticket=ticket if ticket>0 else feather_serial
 	if kind not in ["skill1","rhythm_one","ultimate"]:return
 	var due=action_duration(kind)
@@ -457,6 +483,7 @@ func feather_finished(ticket: int):
 	if feather_records.has(ticket) and not feather_records[ticket].killed:feather_records.erase(ticket)
 
 func _tick_feathers():
+	if not stage.effects_on:return
 	if dead:
 		feather_records.clear()
 		for burst in feather_bursts:burst.stop()

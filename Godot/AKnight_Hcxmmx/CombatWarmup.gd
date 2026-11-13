@@ -3,6 +3,8 @@ extends Node
 # Menu preparation stays outside the encounter attachment call.
 var preparing:=false
 var basics_ready:=false
+var effects_ready:=false
+const Settings=preload("res://AKnight_Hcxmmx/Settings.gd")
 var controller
 var warm_view: SubViewport
 
@@ -44,10 +46,13 @@ func _begin():
 	warm_view=SubViewport.new();warm_view.size=Vector2i(get_viewport().get_visible_rect().size)
 	warm_view.transparent_bg=true;warm_view.disable_3d=true
 	warm_view.render_target_update_mode=SubViewport.UPDATE_ALWAYS;add_child(warm_view)
-	if not basics_ready:
+	if not basics_ready or (Settings.read().combat_effects and not effects_ready):
 		await _basics()
 		basics_ready=true
 	await _idle()
+	if not Settings.read().ultimate_enabled:
+		warm_view.queue_free();warm_view=null;preparing=false
+		return
 	controller=ultimate_script.new();controller.progressive_loading=true;warm_view.add_child(controller)
 	while not controller.prepared:await get_tree().process_frame
 	# Exercise the same materials and render targets before entering a room.
@@ -78,6 +83,7 @@ func _basics():
 	var panel=Control.new();warm_view.add_child(panel)
 	for kind in ["entry","ready","skill1","skill2","ability"]:
 		await _idle()
+		if not Settings.read().combat_effects:continue
 		var player=(followup if kind in ["skill2","ability"] else effects).new()
 		warm_view.add_child(player)
 		if kind in ["skill2","ability"]:await player.initialize(kind,true)
@@ -88,11 +94,13 @@ func _basics():
 		var times: Array={"entry":[0.0],"ready":[0.0],"skill1":[0.0,1.05,1.1666667,1.37,1.4833333,2.0,2.1,2.5],"skill2":[0.0,.2,1.05,1.25,1.85],"ability":[2.65]}[kind]
 		for at in times:
 			await _idle()
+			if not Settings.read().combat_effects:break
 			player.prepare_frames([at]);player.show_time(at,true);light.sync(player,true)
 			await RenderingServer.frame_post_draw
 			await get_tree().process_frame
 		light.sync(player,false);player.free();light.overlay.free();light.free()
 	panel.free();actor.free()
+	effects_ready=bool(Settings.read().combat_effects)
 	var audio=load("res://AKnight_Hcxmmx/CombatAudio.gd").new();add_child(audio)
 	await audio.prepare(true)
 	audio.free()

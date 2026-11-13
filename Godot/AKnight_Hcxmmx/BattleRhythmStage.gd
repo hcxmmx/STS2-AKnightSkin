@@ -18,11 +18,15 @@ var slash_groups: Array=[]
 func _ready():
 	super._ready()
 	if not valid:return
+	for i in 3:slash_groups.append(cuts.groups(i))
+
+func _ensure_effects():
+	super._ensure_effects()
+	if not rhythm_players.is_empty():return
 	rhythm_players.append(skill1_fx)
 	for i in 2:
 		var player=Effects.new();add_child(player);player.initialize();player.visible_kinds.cast=false;player.visible=false;rhythm_players.append(player)
 	_attach_native_fx()
-	for i in 3:slash_groups.append(cuts.groups(i))
 
 func start_slash(index: int):
 	rhythm_index=index
@@ -58,7 +62,7 @@ func render(kind: String,t: float):
 		var source=1.85+t;var p=plan.pose("skill2",minf(source,2.65))
 		if source>=2.65:p=plan.blend(plan.pose("idle",source-2.65),p,source-2.65,.18)
 		apply_pose(p);last_pose=p
-		if source<4.0:
+		if effects_on and source<4.0:
 			show_followup(skill2_fx,source,range(23,61)+range(65,87))
 			var span=(group_target_point-Plan.CENTER)/skill2_fx.scale
 			var axis=Vector2(span.x/12.0,span.y/12.0)
@@ -72,11 +76,12 @@ func render(kind: String,t: float):
 		var fade=1.0-smoothstep(end,end+.10,source)
 		var p=plan.short_pose(kind,t)
 		apply_pose(p);last_pose=p
-		if source<end+.10:
+		if effects_on and source<end+.10:
 			show_followup(skill2_fx,minf(source,end),range(0,23)+range(61,65),fade)
 			active_fx=skill2_fx;primary_fade=fade
-	_render_slashes()
-	if special or not rhythm_records.all(func(record):return record.is_empty()):_sync_fields()
+	if effects_on:
+		_render_slashes()
+		if special or not rhythm_records.all(func(record):return record.is_empty()):_sync_fields()
 
 func _render_slashes():
 	for i in rhythm_players.size():

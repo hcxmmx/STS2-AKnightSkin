@@ -10,8 +10,9 @@ var valid:=false
 var back_fx_root: Node2D
 var front_debris_root: Node2D
 var native_fx_roots: Array=[]
+const FxSettings=preload("res://AKnight_Hcxmmx/Settings.gd")
 
-func _players() -> Array:return [entry,ready_fx,skill1_fx,skill2_fx,unique_fx]
+func _players() -> Array:return [entry,ready_fx,skill1_fx,skill2_fx,unique_fx].filter(func(player):return player!=null)
 
 func _ready():
 	world=self
@@ -19,11 +20,25 @@ func _ready():
 	valid=actor.initialize("battle")
 	if not valid:return
 	actor.manual_sampling=true;actor.sample_modifier=modify_skeleton
+	effects_on=bool(FxSettings.read().combat_effects)
+	if effects_on:_ensure_effects()
+
+func _ensure_effects():
+	if entry!=null:return
 	entry=common_effect("entry");ready_fx=common_effect("ready")
 	ensure_skill(1);ensure_skill(2);ensure_skill(3)
 	_attach_back_effects()
 	_attach_native_fx()
 	for player in _players():player.visible=false
+
+func set_effects_enabled(value:bool):
+	effects_on=value
+	if value:_ensure_effects()
+	else:
+		stop_effects()
+		for player in _players():
+			player.field_viewport.render_target_update_mode=SubViewport.UPDATE_DISABLED
+			if player.get("highlight_viewport")!=null:player.highlight_viewport.render_target_update_mode=SubViewport.UPDATE_DISABLED
 
 func _attach_back_effects():
 	var ancestor: Node=get_parent()
@@ -117,6 +132,8 @@ func render(kind: String,t: float):
 		"victory":p=plan.action("victory",t,3.4,Plan.CENTER,true)
 		"relaxed":p=plan.action("idle_special1",t,4.033333)
 	apply_pose(p);last_pose=p
+	if kind=="entry":actor.modulate.a=clampf((t-.7)/.1,0,1)
+	if not effects_on:return
 	if kind=="entry":
 		actor.modulate.a=clampf((t-.7)/.1,0,1);show_common(entry,t,"entry");active_fx=entry
 	elif kind=="ready":
@@ -181,6 +198,7 @@ func _sync_fields():
 		item.root.visible=item.player.visible and is_visible_in_tree()
 
 func render_tail(tail_kind: String,t: float,cutoff: float):
+	if not effects_on:return
 	var saved: Dictionary=last_pose.duplicate()
 	interrupted_at=cutoff;render(tail_kind,t)
 	if active_fx!=null:

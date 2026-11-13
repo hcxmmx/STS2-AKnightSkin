@@ -47,20 +47,45 @@ internal static class CardPerformancePatch
 [HarmonyPatch]
 internal static class ActualAttackTargetsPatch
 {
-    private static System.Reflection.MethodBase TargetMethod() => typeof(MegaCrit.Sts2.Core.Commands.CreatureCmd).GetMethods().Single(method =>
-        method.Name == "Damage" && method.GetParameters() is var args && args.Length is 6 or 7 &&
-        args[1].ParameterType == typeof(IEnumerable<Creature>) && args[2].ParameterType == typeof(decimal));
+    internal static bool ObserveAtCallSite => typeof(Creature).Assembly.GetType("MegaCrit.Sts2.Core.Entities.Creatures.DamageTargetData") != null;
+    private static bool Prepare() => !ObserveAtCallSite;
+    private static readonly System.Reflection.FieldInfo? DamageTarget = typeof(Creature).Assembly
+        .GetType("MegaCrit.Sts2.Core.Entities.Creatures.DamageTargetData")?.GetField("target");
 
-    private static void Prefix(IEnumerable<Creature>? targets, MegaCrit.Sts2.Core.ValueProps.ValueProp props, Creature? dealer, MegaCrit.Sts2.Core.Models.CardModel? cardSource)
+    internal static System.Reflection.MethodInfo TargetMethod()
     {
-        if (targets is not IReadOnlyList<Creature> actual || dealer?.GetCreatureNode() is not { } owner ||
-            !props.HasFlag(MegaCrit.Sts2.Core.ValueProps.ValueProp.Move)) return;
-        var skin=Visuals.Skin(owner);
-        if (skin==null) return;
-        var rows=new Godot.Collections.Array<Godot.Collections.Dictionary>();
-        foreach (var target in actual)
-            if (TargetSnapshot.Read(target) is { } row) rows.Add(row);
-        skin.Call("actual_targets",cardSource?.Id.Entry ?? "",rows);
+        var data = typeof(Creature).Assembly.GetType("MegaCrit.Sts2.Core.Entities.Creatures.DamageTargetData");
+        var targetsType = data == null ? typeof(IEnumerable<Creature>) : typeof(IEnumerable<>).MakeGenericType(data);
+        return typeof(MegaCrit.Sts2.Core.Commands.CreatureCmd).GetMethods().Single(method =>
+            method.Name == "Damage" && method.GetParameters() is var args && args.Length is 6 or 7 or 8 &&
+            args[1].ParameterType == targetsType && args[2].ParameterType == typeof(decimal));
+    }
+
+    internal static IReadOnlyList<Creature>? ReadHitTargets(object? targets)
+    {
+        if (targets is IReadOnlyList<Creature> creatures) return creatures;
+        if (DamageTarget == null || targets is not System.Collections.IList data) return null;
+        var result = new Creature[data.Count];
+        for (int i = 0; i < data.Count; i++) result[i] = (Creature)DamageTarget.GetValue(data[i])!;
+        return result;
+    }
+
+    private static void Prefix(object? __1, MegaCrit.Sts2.Core.ValueProps.ValueProp props, Creature? dealer, MegaCrit.Sts2.Core.Models.CardModel? cardSource) =>
+        Observe(dealer, __1, props, cardSource);
+
+    internal static void Observe(Creature? dealer, object? targets, MegaCrit.Sts2.Core.ValueProps.ValueProp props, MegaCrit.Sts2.Core.Models.CardModel? cardSource)
+    {
+        try
+        {
+            if (dealer?.GetCreatureNode() is not { } owner || !props.HasFlag(MegaCrit.Sts2.Core.ValueProps.ValueProp.Move)) return;
+            var skin = Visuals.Skin(owner);
+            if (skin == null || ReadHitTargets(targets) is not { } actual) return;
+            var rows = new Godot.Collections.Array<Godot.Collections.Dictionary>();
+            foreach (var target in actual)
+                if (TargetSnapshot.Read(target) is { } row) rows.Add(row);
+            skin.Call("actual_targets", cardSource?.Id.Entry ?? "", rows);
+        }
+        catch (Exception ex) { GD.PushWarning("[AKnightSkin] Actual targets: " + ex.Message); }
     }
 }
 
